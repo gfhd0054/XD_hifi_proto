@@ -1,6 +1,65 @@
 $(document).ready(function () {
 });
 
+let schedule = [];
+
+$.ajax({
+    type: "GET",
+    url: "./data/schedule.csv",
+    dataType: "text",
+    async: false,
+    success: function(data) {
+        var allRows = data.split(/\r?\n|\r/);
+        for(var singleRow = 1; singleRow < allRows.length; singleRow++) {
+            var tmp = {};
+            var rowCells = allRows[singleRow].split(',');
+            tmp['id'] = rowCells[0];
+            tmp['year'] = rowCells[1];
+            tmp['month'] = rowCells[2];
+            tmp['day'] = rowCells[3];
+            tmp['hour'] = rowCells[4];
+            tmp['minute'] = rowCells[5];
+            tmp['blue'] = rowCells[6];
+            tmp['bluewin'] = rowCells[7];
+            tmp['purple'] = rowCells[8];
+            tmp['purplewin'] = rowCells[9];
+            schedule.push(tmp);
+        }
+    },
+    error:function(request, error) {
+
+			    alert("fail load schedule");
+
+		}
+});
+
+function getteam(str) {
+    let t = getData("gid")
+    for(let i = 0; i < schedule.length; i++) {
+        if(schedule[i].id == t) {
+            if(str == "blue") {
+                return schedule[i].blue;
+            } else {
+                return schedule[i].purple;
+            }
+        }
+    }
+}
+
+
+function getData(param) {
+    var url = location.href;
+    var params = (url.slice(url.indexOf('?') + 1, url.length)).split('&');
+    for (var i = 0; i < params.length; i++) {
+        let tmp = params[i].split('=')[0];
+        if (tmp.toUpperCase() == param.toUpperCase()) {
+            return decodeURIComponent(params[i].split('=')[1]);
+        }
+    }
+
+}
+
+
 var video = document.querySelector('.videoRaw');
 var statusBar = document.querySelector('.statusBar');
 var play_pause = document.getElementById('play-pause');
@@ -179,20 +238,55 @@ function updateLikes(offset) {
 
 function drawTimestamp() {
     var duration = video.duration;
+    let bteam = getteam("blue");
+    let pteam = getteam("purple");
     for(var i = 0; i<timeStampData.length; i++) {
+        var data = timeStampData[i];
+        if(data.gid != getData("gid") || data.set != getData("set")) {
+            continue;
+        }
         var tmstmp = document.createElement('div');
         tmstmp.classList.add('stamp');
         tmstmp.id = 'stamp' + i;
-        var data = timeStampData[i];
         tmstmp.style.left = (data['time'] / duration) * 100 + "%";
-        if (data['team'] == "DRX") {
-            tmstmp.style.background = 'rgba(87, 140, 247, 1)';
+        if (data['team'] == bteam) {
             tmstmp.style.bottom = 0;
+        }
+        else if (data['team'] == pteam) {
+            tmstmp.style.top = 0;
+        }
+
+        if (data['team'] == "AF") {
+            tmstmp.style.background = 'rgba(5, 69, 177, 1)';
+        }
+        else if (data['team'] == "APK") {
+            tmstmp.style.background = 'rgba(215, 70, 70, 1)';
+        }
+        else if (data['team'] == "DRX") {
+            tmstmp.style.background = 'rgba(87, 140, 247, 1)';
         }
         else if (data['team'] == "DWG") {
             tmstmp.style.background = 'rgba(48, 208, 178, 1)';
-            tmstmp.style.top = 0;
         }
+        else if (data['team'] == "GEN") {
+            tmstmp.style.background = 'rgba(165, 135, 33, 1)';
+        }
+        else if (data['team'] == "GRF") {
+            tmstmp.style.background = 'rgba(215, 24, 31, 1)';
+        }
+        else if (data['team'] == "HLE") {
+            tmstmp.style.background = 'rgba(255, 107, 1, 1)';
+        }
+        else if (data['team'] == "KT") {
+            tmstmp.style.background = 'rgba(34, 30, 31, 1)';
+        }
+        else if (data['team'] == "SB") {
+            tmstmp.style.background = 'rgba(173, 28, 49, 1)';
+        }
+        else if (data['team'] == "T1") {
+            tmstmp.style.background = 'rgba(226, 30, 47, 1)';
+        }
+        
         playBar.appendChild(tmstmp);
     }
     

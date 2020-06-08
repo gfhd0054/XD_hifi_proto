@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $(".header").load('./homepage.html');
-    $("#video").load('./replayvideo.html');
+    $("#video").load('./replayvideo.html?gid='+getData("gid")+'&set='+getData("set"));
 
     let schedule = [];
 
