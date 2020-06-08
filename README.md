@@ -1,4 +1,4 @@
-# XD_proto
+# XD_hifi_proto
 
 High fidelity prototype of XD - League of Legend streaming service platform
 
