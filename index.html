@@ -1,10 +1,85 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="utf-8" />
-    <title>XD proto</title>
-    <script src="load.js"></script>
+    <meta charset="UTF-8">
+    <title>XD proto</title> 
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu"  rel="stylesheet"/>
+    <link href="./main.css" rel="stylesheet" />
+    <link href="./newroom.css" rel="stylesheet" />
+    <link href="./toolbar.css" rel="stylesheet" />
+    <link href="./test.css" rel="stylesheet" />
 </head>
 <body>
-    <main id = "main"></main>
+    <!-- Toolbar -->
+    <div class="header">
+    </div>
+    <div class="block">
+        <div id="public">
+            <div id="schedule" class="horizontal column_left">
+                <br>
+                <p><span style="font-family: Ubuntu; font-size: large">Schedule</span></p>
+                <table id="scheduletable">
+                    <tbody>
+                        <tr><td id="upSchedule"><i class="fa fa-angle-up fa-3x"></i></td></tr>
+                        <tr><td>1</td></tr>
+                        <tr><td>2</td></tr>
+                        <tr><td>3</td></tr>
+                        <tr><td>4</td></tr>
+                        <tr><td>5</td></tr>
+                        <tr><td id="downSchedule"><i class="fa fa-angle-down fa-3x"></i></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="official_streaming" class="horizontal">
+                <p><span style="font-family: Ubuntu; font-size: xx-large">Public Broadcast</span></p>
+                <div class="video" id="official_live_streaming">
+                    <!-- <video class="video" src="video/online_streaming_match.mp4" autoplay></video> -->
+                </div>
+            </div>
+            <div id="streamers" class="horizontal column_right">
+                <br>
+                <p><span style="font-family: Ubuntu; font-size: large">Recommended Streamers</span></p>
+                <table id="streamertable">
+                    <tbody>
+                        <tr><td class="streamer"><img width='50px' height='50px'>Woolf's Broadcast</td></tr>
+                        <tr><td class="streamer"><img width='50px' height='50px'>Ambition's Broadcast</td></tr>
+                        <tr><td class="streamer"><img width='50px' height='50px'>Mad Life's Broadcast</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="private">
+            <p><span style="font-family: Ubuntu; font-size: x-large">Private Room</span></p>
+            <div class="horizontal" id="createroom" href="#popup1"><img class='thumbnail' src="./images/createroom.png" width='192px' height='108px' alt="create New Room"><br><span style="font-family: Ubuntu; font-size: medium">Create Room</span></div>
+            
+        </div>
+    </div>
+    <div class="block">
+        <div id = "replays">
+            <p><span style="font-family: Ubuntu; font-size: x-large">Replay</span></p>
+        </div>
+    </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Room Setting</h2>
+            <div class="form">
+                  <form class="login-form" id="login-form">
+                      <input id="titleInput" type="title" placeholder="Edit room title"/>  
+                      <input class="subbt" type="submit" value="Create" style="border:none;"/>   
+                  </form>
+         
+            </div>
+            <div class="left"><a style="font-size:1.1em;">Choose Privacy Option</a>
+                <div class="bts">
+                    <a class="option social" id="roomoption:0"><i class="fa fa-globe"></i><span>Public - Anyone can found </span></a>
+                    <a class="option social" id="roomoption:1"><i class="fa fa-users" aria-hidden="true"></i><span>Private - Friends can found </span></a>
+                    <a class="option social" id="roomoption:2"><i class="fa fa-unlock-alt"></i><span>Hidden - Only by invite</span></a>             
+                </div>
+            </div> 
+            <a class="close" href="#">&times;</a>
+        </div>
+    </div>
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="./main.js"></script>
 </body>
-</html>
