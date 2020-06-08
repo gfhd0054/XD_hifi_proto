@@ -326,12 +326,9 @@ $(document).ready(function () {
     })
 
     $(document).on('click', '.set',function() {
+        let gid = $(this).parent().attr("id");
         let set = this.content;
-        if (set == "DRXvsDWGset1") {
-            location.replace('./replay.html')
-        } else {
-            alert(set);
-        }
+        location.replace("./replay.html?gid="+gid.slice(3)+"&set="+set);
     })
 
     $(document).on('click','#official_streaming',function() {
