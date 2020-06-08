@@ -222,7 +222,7 @@ $(document).ready(function () {
     }
 
     function fillSchedule(today, i) {
-        res = "<img src='./images/logo/logo_" + schedule[i].blue + ".png' height='50px' width='50px' alt='"+schedule[i].blue+"'>  ";
+        res = "<img src='./images/logo/logo_" + schedule[i].blue + ".png' height='50px' width='50px' alt='"+schedule[i].blue+"' class='leftTeam'>";
         // let year = today.getFullYear();
         // let month = today.getMonth();
         // let day = today.getDate();
@@ -265,7 +265,7 @@ $(document).ready(function () {
                 res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
             }
         }
-        return res + "  <img src='./images/logo/logo_" + schedule[i].purple + ".png' height='50px' width='50px' alt='"+schedule[i].purple+"'>";
+        return res + "  <img src='./images/logo/logo_" + schedule[i].purple + ".png' height='50px' width='50px' alt='"+schedule[i].purple+"' class='rightTeam'>";
     }
 
     function iterateOption() {
