@@ -22,6 +22,10 @@ body {
     margin-bottom : 10px;
 }
 
+#block2{
+    height: 600px;
+}
+
 .left{
     display: flex;
     flex-direction: column;
@@ -72,6 +76,36 @@ body {
     float :left;
 }
 
-img{
-    
+#rec{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 30px;
+}
+
+.rightone {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#lleefftt {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.information{
+    background-color : #D3DDDD;
+    position : absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    width : 650px;
+    height : 300px;
+    border : 30px solid #D3DDDD;
+}
+
+.matching {
 }
