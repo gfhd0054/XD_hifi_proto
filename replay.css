@@ -20,15 +20,6 @@
     margin-bottom: 10px;
 }
 
-.teamA {
-    font-weight: bold;
-    color: rgba(87, 140, 247, 1);
-}
-
-.teamB {
-    font-weight: bold;
-    color: rgba(48, 208, 178, 1);
-}
 
 .barrier {
     font-size: 20px;
@@ -44,3 +35,55 @@
     width: 100%;
     height: 400px;
 }
+
+.AF {
+    font-weight: bold;
+    color: rgba(5, 69, 177, 1);
+}
+
+.APK {
+    font-weight: bold;
+    color: rgba(215, 70, 70, 1);
+}
+
+.DRX {
+    font-weight: bold;
+    color: rgba(87, 140, 247, 1);
+}
+
+.DWG {
+    font-weight: bold;
+    color: rgba(48, 208, 178, 1);
+}
+
+.GEN {
+    font-weight: bold;
+    color: rgba(165, 135, 33, 1);
+}
+
+.GRF {
+    font-weight: bold;
+    color: rgba(215, 24, 31, 1);
+}
+
+.HLE {
+    font-weight: bold;
+    color: rgba(255, 107, 1, 1);
+}
+
+.KT {
+    font-weight: bold;
+    color: rgba(34, 30, 31, 1);
+}
+
+.SB {
+    font-weight: bold;
+    color: rgba(173, 28, 49, 1);
+}
+
+.T1 {
+    font-weight: bold;
+    color: rgba(226, 30, 47, 1);
+}
+
+

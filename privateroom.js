@@ -37,9 +37,9 @@ $(document).ready(function () {
             prfLink = './images/profile/profile_default.png';
         }
         let roomtitle = document.getElementById("roomTitle");
-        roomtitle.innerHTML = '<img src = "'+prfLink+'"  width = 40px height =40px class = "lcklogo">';
+        roomtitle.innerHTML = '<img src = "'+prfLink+'"  height="40px" class = "lcklogo">';
         roomtitle.innerHTML += '<span style = "margin : 10px">'+title+'</span>';
-        roomtitle.innerHTML += '<span style = "float : right; font-size : large">'+host+'</span>';
+        roomtitle.innerHTML += '<span style = "float : right; font-size : large">host : '+host+'</span>';
     }
 
     initRoom();
