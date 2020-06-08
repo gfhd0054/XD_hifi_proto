@@ -10,7 +10,7 @@ body {
     background: transparent;
     justify-content: center;
     width: 800px;
-    height: 470px;
+    height: 500px;
 }
 
 .controls {
@@ -26,21 +26,47 @@ body {
     transition-delay: 1.5s;
 }
 
-.video {
+#voteDiv {
     width: 100%;
-    height: 100%;
+    height: 20px;
+    overflow: hidden;
 }
 
-.frame:hover .controls{
+#votePanel {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    align-items: center;
+    width: 10%;
+    height: 20px;
+    background: transparent;
+    visibility: hidden;
+    transition: transform .2s;
+    transition-delay: 1.5s;
+}
+
+.videoRaw {
+    width: 100%;
+    height: 480px;
+}
+
+.container:hover .controls{
     transform: translateY(-100%);
     transition-delay: .1s;
 }
 
+.container:hover #votePanel{
+    transform: translateY(100%);
+    transition-delay: .1s;
+}
+
 .frame {
+    z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
-    max-height: 450px;
+    max-height: 480px;
     overflow: hidden;
 }
 
@@ -162,18 +188,6 @@ body {
 
 .videoButton:hover{
     color: white;
-}
-
-#votePanel {
-    display: flex;
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    align-items: center;
-    width: 10%;
-    height: 20px;
-    background: transparent;
-    visibility: hidden;
 }
 
 .likeButton {

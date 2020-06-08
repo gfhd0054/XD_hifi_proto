@@ -9,7 +9,7 @@
 <body>  
     <div class="container">
         <div class="frame">
-            <video class="video" src="./video/replay.mp4"></video>
+            <video class="videoRaw" src="./video/replay.mp4"></video>
             <div class="controls">
                 <div class="frontButtons">
                     <div class="videoButton" id="play-pause"><i class="fas fa-play"></i></div>
@@ -35,9 +35,11 @@
                 </div>
             </div>
         </div>
-        <div id="votePanel">
-            <div class="likeButton" id="likeButton"><i class="far fa-thumbs-up"></i></div>
-            <span id="numLikes"> 0,000 Likes </span>
+        <div id="voteDiv">
+            <div id="votePanel">
+                <div class="likeButton" id="likeButton"><i class="far fa-thumbs-up"></i></div>
+                <span id="numLikes"> 0,000 Likes </span>
+            </div>
         </div>
     </div>
     <script src="jquery/js/jquery-1.9.0.min.js"></script>

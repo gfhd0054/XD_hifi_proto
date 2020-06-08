@@ -1,7 +1,7 @@
 $(document).ready(function () {
 });
 
-var video = document.querySelector('.video');
+var video = document.querySelector('.videoRaw');
 var statusBar = document.querySelector('.statusBar');
 var play_pause = document.getElementById('play-pause');
 var volumeIcon = document.getElementById('volume');
@@ -200,7 +200,7 @@ function drawTimestamp() {
         var num = this.id.slice(5);
         video.currentTime = timeStampData[num]['time'];
         var votePanel = document.getElementById("votePanel");
-        votePanel.style.left = this.getBoundingClientRect().left+"px";
+        votePanel.style.left = this.offsetLeft + playBar.offsetLeft + "px";
         votePanel.style.visibility = 'visible';
         updateLikes(timeStampData[num]['Likes']);
         updateLikeButton(timeStampData[num]['isLiked']);
