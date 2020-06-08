@@ -7,7 +7,7 @@ $(document).ready(function () {
     let schNum = -1;
     let current = -1;
 
-    let roomoption;             // 0 : public, 1 : private, 2 : secret
+    let roomoption = -1;             // 0 : public, 1 : private, 2 : secret
 
     $.ajax({
         type: "GET",
@@ -294,9 +294,11 @@ $(document).ready(function () {
     $(document).on('click','.subbt', function() {
         let inputBox = document.getElementById("titleInput");
         if(inputBox.value == "") {
+            document.getElementById('noNameforRoom').innerHTML = 'Enter name for your room.';
             return;
         }
         if(roomoption == -1) {
+            document.getElementById('noNameforRoom').innerHTML = 'Choose option.';
             return;
         }
         location.replace("./privateroom.html?title="+inputBox.value+"&host=Myroom&option="+roomoption);
