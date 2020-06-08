@@ -74,7 +74,8 @@ $(document).ready(function () {
                 var rowCells = allRows[singleRow].split(',');
                 tmp['id'] = rowCells[0];
                 tmp['name'] = rowCells[1];
-                tmp['secure'] = rowCells[2];
+                tmp['title'] = rowCells[2];
+                tmp['secure'] = rowCells[3];
                 friends.push(tmp);
             }
         },
@@ -133,7 +134,7 @@ $(document).ready(function () {
                 friend.content = friends[i].id;
                 let profLink = './images/profile/profile_'+friends[i].name+'.png';
                 let chk = doesFileExist(profLink)
-                let text = '<span style="font-family: Ubuntu; font-size: medium">' + friends[i].name + "'s room</span>";
+                let text = '<span style="font-family: Ubuntu; font-size: medium">' + friends[i].title + '</span><br><span style="font-family: Ubuntu; font-size: small">by '+friends[i].name+'</span>';
                 if(chk) {
                     friend.innerHTML = "<img class='thumbnail' src='" + profLink + "' width='192px' height='108px'><br>" + text;
                 } else {
@@ -298,7 +299,7 @@ $(document).ready(function () {
         if(roomoption == -1) {
             return;
         }
-        alert(inputBox.value);
+        location.replace("./privateroom.html?title="+inputBox.value+"&host=Myroom&option="+roomoption);
     })
 
     $(document).on('click','.option', function() {
@@ -322,7 +323,7 @@ $(document).ready(function () {
                 break;
             }
         }
-        alert(friend.name + "'s room");
+        location.replace("./privateroom.html?title="+friend.title+"&host="+friend.name+"&option="+(friend.secure ? 1:2));
     })
 
     $(document).on('click', '.set',function() {

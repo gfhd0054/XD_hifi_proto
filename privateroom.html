@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title> 
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu"  rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./streaming.css" rel="stylesheet" />
+</head>
+<body>  
+    <div class = "header"> </div>
+    <div class = "block">
+        <div id = "upper">
+            <div id = "video"></div>
+            <div id = "chat" class = "chat">
+                <div style ="padding : 10px; background-color :  rgb(255, 249, 224);">
+                    <div style ="display : inline;">Viewer</div>
+                    <div id = "inviting" style ="display : inline; float : right">
+                            <span class="material-icons">person_add</span>
+                    </div>
+                </div>
+                <div class = "message">
+                </div>
+                <div class = "msgtype">
+                    <table>
+                        <tr>
+                            <td width = 330>
+                                <input id = "message_data" type ="text" style = "width : 330px; height : 60px"> 
+                            </td>
+                            <td>
+                                <button id = "message_button" type ="submit" class ="submit" > 보내기 </button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="roomTitle" class = "gametitle" style ="margin : 10px">
+            <img src = "./images/logo/logo_lck.jpg "  width = 40px height =40px class = "lcklogo">
+            <span style = "margin : 10px">T1 vs GEN match 1 | 06.06 LCK 2020 Summer</span>
+            <span style = "float : right; font-size : large">1013</span>
+            <span class="material-icons" style ="float : right; margin-right : 5px; margin-left : 10px">star_border</span>
+            <span style = "float : right; font-size : large">23013</span>
+            <span class="material-icons" style ="float : right; margin-right : 5px">person</span>
+        </div>
+        <hr width = 95% align = "left" style = "margin-top : 30px">
+    </div>
+
+
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="jquery/js/jquery-easing.js"></script>
+    <script src="./privateroom.js"></script>
+</body>

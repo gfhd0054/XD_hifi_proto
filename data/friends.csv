@@ -1,6 +1,6 @@
-id,friends,secure
-13,Minwoo,open
-7,Jaehyun,open
-8,Sejune,open
-5,Jihyuk,open
-6,Taeyoung,close
+id,friends,title,secure
+13,Minwoo,MW,open
+7,Jaehyun,Let's watch,open
+8,Sejune,No-Chat,open
+5,Jihyuk,Jihyuk's room,open
+6,Taeyoung,SECRET,close
