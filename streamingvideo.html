@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title> 
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu"  rel="stylesheet"/>
+    <link href="./streamingvideo.css" rel="stylesheet" />
+</head>
+<body>  
+    <div class="container">
+        <div class="frame">
+            <video class="videoRaw" id="videoRaw" src="./video/online_streaming_match.mp4"></video>
+            <div class="controls">
+                <div class="frontButtons">
+                    <div class="videoButton" id="play-pause"><i class="fas fa-play"></i></div>
+                    <div class="videoButton" id="volume"><i class="fas fa-volume-down"></i></div>
+                </div>
+                <div class="onAir">
+                    <span id="onAir"> onAir </span>
+                    <span id="onAirCircle"> ⦁ </span>
+                </div>
+                <div class="backButtons">
+                    <div class="videoButton" id="setting"><i class="fas fa-cog"></i></div>
+                    <div class="videoButton" id="fullscreen"><i class="fas fa-expand"></i></div>
+                </div>
+            </div>
+            <div class="popupQuiz" id="popupQuiz1">
+                <div class="popupQuizTimer" id="popupQuizTimer1">
+                </div>
+                <div class="popupQuizTitle" id="popupQuizTitleDiv1">
+                    <span id="popupQuizTitle1"> Guess First Dragon! </span>
+                </div>
+                <div class="popupQuizOption" id="popupQuizOptionDiv1">
+                    <table id="popupQuizOption1">
+                        <tr>
+                            <td class="pQOTE">
+                                <img class="quizOption" id="cloudDragon" src="./images/cloudDragon.png"/>
+                            </td>
+                            <td class="pQOTE">
+                                <img class="quizOption" id="mountainDragon" src="./images/mountainDragon.png"/>
+                            </td>
+                            <td class="pQOTE">
+                                <img class="quizOption" id="infernalDragon" src="./images/infernalDragon.png"/>
+                            </td>
+                            <td class="pQOTE">
+                                <img class="quizOption" id="oceanDragon" src="./images/oceanDragon.png"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="popupQuiz" id="popupQuiz2">
+                <div class="popupQuizTimer" id="popupQuizTimer2">
+                </div>
+                <div class="popupQuizTitle" id="popupQuizTitleDiv2">
+                    <span id="popupQuizTitle2"> Guess First Blood Winner! </span>
+                </div>
+                <div class="popupQuizOption" id="popupQuizOptionDiv2">
+                    <table id="popupQuizOption2">
+                        <tr>
+                            <td class="pQOTE T1">
+                                <span> T1 </span>
+                            </td>
+                            <td class="pQOTE">
+                                <span class="quizOption" id="fb0"> TOP </span>
+                            </td>
+                            <td class="pQOTE">
+                                <span class="quizOption" id="fb1"> JGL </span>
+                            </td>
+                            <td class="pQOTE">
+                                <span class="quizOption" id="fb2"> MID </span>
+                            </td>
+                            <td class="pQOTE">
+                                <span class="quizOption" id="fb3"> BOT </span>
+                            </td>
+                            <td class="pQOTE">
+                                <span class="quizOption" id="fb4"> SUP </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pQOTE GEN">
+                                <span> GEN </span>
+                            </td>
+                            <td class="pQOTE">
+                                <span class="quizOption" id="fb5"> TOP </span>
+                            </td>
+                            <td class="pQOTE">
+                                <span class="quizOption" id="fb6"> JGL </span>
+                            </td>
+                            <td class="pQOTE">
+                                <span class="quizOption" id="fb7"> MID </span>
+                            </td>
+                            <td class="pQOTE">
+                                <span class="quizOption" id="fb8"> BOT </span>
+                            </td>
+                            <td class="pQOTE">
+                                <span class="quizOption" id="fb9"> SUP </span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="jquery/js/jquery-easing.js"></script>
+    <script src="./streamingvideo.js"></script>
+</body>

@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Homepage</title> 
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu"  rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Arimo"  rel="stylesheet"/>
+        <link href="./newroom.css" rel="stylesheet" />
+        <link href="./toolbar.css" rel="stylesheet" />
+        <link href="./test.css" rel="stylesheet" />
+    </head>
+    <body> 
+    <!-- Toolbar -->
+    <div class="toolBar">
+        <div class="homeButtonDiv" onclick="direct_to_home()">
+            <div class="homeButtonContents">
+                <span class="toolBarContents" id="XD"> XD </span>
+                <img class="toolBarContents" src="./images/lck_logo_png.png" alt="X" width="30px"/>
+                <span class="toolBarContents" id="leagueName"> LCK 2020 SPRING </span>
+            </div>
+        </div>
+        <div class="myMenus">
+            <div class="myMenusContents">
+                <img class="toolBarContens" id="myMenus" src="./images/mymenus.png" alt="menus" height="30px"/>
+                <img class="toolBarContens" id="profile" src="./images/profile.png" alt="profile" height="30px"/>
+            </div>
+        </div>
+        <div class="hamburger" onclick="notSupported()">
+            <div class="hamburgerContents">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+<div class="box">
+	<a class="button" href="#popup1">Create new room</a>
+</div>
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Room Setting</h2>
+        <div class="form">
+              <form class="login-form" id="login-form">
+                  <input type="title" placeholder="Edit room title"/>  
+                  <input class="subbt" type="submit" value="Create" style="border:none;"/>   
+              </form>
+     
+        </div>
+        <div class="left"><a style="font-size:1.1em;">Choose Privacy Option</a>
+            <div class="bts">
+                <a class="option social"><i class="fa fa-globe"></i><span>Public - Anyone can found </span></a>
+                <a class="option social"><i class="fa fa-users" aria-hidden="true"></i><span>Private - Friends can found </span></a>
+                <a class="option social"><i class="fa fa-unlock-alt"></i><span>Hidden - Only by invite</span></a>             
+            </div>
+        </div> 
+        <a class="close" href="#">&times;</a>
+	</div>
+</div>
+
+</body> 

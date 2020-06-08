@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+.block{
+    margin-left : 50px;
+    margin-top : 30px;
+    margin-right : 50px;
+    margin-bottom : 30px;
+}
+#video{
+    font-family: Ubuntu;
+}
+.chat{
+    width : 30%;
+    height : 63%;
+    position : absolute;
+    border : 1px solid #bebebe;
+    background-color: #ffffffc0;
+    font-family: Norwester;
+    left : 890px;
+    top : 90px;
+}
+.msgtype{
+    position : absolute;
+    left : 10px;
+    top : 420px;
+}
+.submit{
+    font-family: Norwester;
+    background-color: rgb(255, 249, 224);
+    margin : 5px;
+    width : 60px;
+    height : 60px;
+
+}
+.gametitle{
+    width : 780px;
+    font-family: Norwester;
+    font-size : x-large;
+    font-weight: 100;
+}
+.lcklogo{
+    position : static;
+    top : 10px;
+    float :left;
+}
