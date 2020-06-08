@@ -327,9 +327,11 @@ $(document).ready(function () {
 
     $(document).on('click', '.set',function() {
         let set = this.content;
-        let gid = $(this).parent().attr("id");
-        //alert(gid.slice(3)+"-"+set);
-        location.replace("?gid="+gid.slice(3)+"&set="+set);
+        if (set == "DRXvsDWGset1") {
+            location.replace('./replay.html')
+        } else {
+            alert(set);
+        }
     })
 
     $(document).on('click','#official_streaming',function() {
