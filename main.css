@@ -110,3 +110,19 @@
     margin-left: 10px;
     padding-top: 5px;
 }
+
+.videoHover {
+    position: absolute;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.76);
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.76);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.video:hover .videoHover {
+    opacity: 1;
+}

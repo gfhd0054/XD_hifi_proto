@@ -7,7 +7,7 @@ var play_pause = document.getElementById('play-pause');
 var volumeIcon = document.getElementById('volume');
 var lastVolume = 0;
 var timeOffset = new Date().getTime() / 1000;
-var shown1 = false; var shown2 = false;
+var shown1 = false; var shown2 = false; var shown3 = false;
 var userAnswer = {'dragon': -1, 'player': -1};
 
 video.onloadedmetadata = function(){
@@ -60,6 +60,10 @@ video.addEventListener('timeupdate', function(){
     else if (video.play && video.currentTime >= 34 && !shown2) {
         showQuiz2();
         shown2 = true;
+    }
+    else if (video.play && video.currentTime >= 90 && !shown3) {
+        showResult1();
+        shown3 = true;
     }
 });
 
@@ -184,6 +188,7 @@ function showQuiz() {
                                     userAnswer['dragon'] = 3;
                                 }
                             }
+                            prepareResult1();
                         }
                     });
                 }
@@ -225,6 +230,36 @@ function showQuiz2() {
     });
 }
 
+function showResult1() {
+    if (userAnswer['dragon'] < 0) {
+        return;
+    }
+    $("#popupQuiz1Result").animate({
+        right: '+=18%'
+    }, {
+        duration: 1000,
+        easing: 'easeOutQuint',
+        complete: function(){
+            $('#popupQuizTimer3').animate({
+                width: '100%'
+            }, {
+                duration: 10 * 1000,
+                easing: 'linear',
+                complete: function(){
+                    $("#popupQuiz1Result").animate({
+                        right: '-=18%'
+                    }, {
+                        duration: 1000,
+                        easing: 'easeOutQuint',
+                        complete: function() {
+                        }
+                    });
+                }
+            });
+        }
+    });
+}
+
 var dragonoptions = document.getElementsByClassName("quizOption");
 for (var i = 0; i < dragonoptions.length; i++) {
     dragonoptions[i].addEventListener("click", function(){
@@ -237,4 +272,27 @@ for (var i = 0; i < dragonoptions.length; i++) {
             this.className += " activeoption";
         }
     });
+}
+
+function prepareResult1(){
+    var answer = document.getElementById("popupQuizAnswer");
+    var submit = document.getElementById("popupQuizSubmit");
+    var msg = document.getElementById("popupQuizmsg");
+    answer.innerHTML = "<img width=30px src='./images/infernalDragon.png'/>";
+    if (userAnswer['dragon'] == 0) {
+        submit.innerHTML = "<img class='wrong' width=25px src='./images/cloudDragon.png'/>";
+        msg.innerHTML = "Try again next time";
+    }
+    else if (userAnswer['dragon'] == 1) {
+        submit.innerHTML = "<img class='wrong' width=25px src='./images/mountainDragon.png'/>";
+        msg.innerHTML = "Try again next time";
+    }
+    else if (userAnswer['dragon'] == 2) {
+        submit.innerHTML = "<img class='right' width=30px src='./images/infernalDragon.png'/>";
+        msg.innerHTML = "You've got correct!";
+    }
+    else if (userAnswer['dragon'] == 3) {
+        submit.innerHTML = "<img class='wrong' width=25px src='./images/oceanDragon.png'/>";
+        msg.innerHTML = "Try again next time";
+    }
 }

@@ -127,6 +127,7 @@ body {
 #popupQuiz2 {
     width: 24%;
 }
+
 .popupQuizTimer {
     position: absolute;
     left: 0;
@@ -149,7 +150,7 @@ body {
     align-items: vertical;
 }
 
-.popupQuizOption {
+.popupQuizOption{
     position: absolute;
     width: 90%;
     top: 39%;
@@ -200,4 +201,19 @@ body {
     background: rgb(170, 139, 47);
     color: white;
     cursor: default;
+}
+
+#popupQuizAnswer {
+    margin-right: 3px;
+}
+
+#popupQuizSubmit{
+    margin-right: 3px;
+    opacity: 0.6;
+}
+
+#popupQuizmsg {
+    color: black;
+    font-weight: bold;
+    text-align: center;
 }
