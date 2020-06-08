@@ -1,6 +1,7 @@
 # XD_hifi_proto
 
 High fidelity prototype of XD - League of Legend streaming service platform
+* Clone from XD_proto repository due to the git-lfs error.
 
 ## Collaborators
 Undergraduate students in KAIST,
