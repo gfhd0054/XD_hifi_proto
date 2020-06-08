@@ -9,14 +9,25 @@
 </head>
 <body>  
     <div class = "header"> </div>
-    <div class = "block">
-        <div id = "upper">
-            <div id = "video"></div>
+    <div class = 'totalContainer'>
+        <div class = "category"> Public Broadcast </div>
+        <div class = "block">
+            <div id = "left">
+                <div id = "video"></div>
+                <div id="roomTitle" class = "gametitle" style ="margin : 10px">
+                    <img src = "./images/logo/logo_lck.jpg "  width = 40px height =40px class = "lcklogo">
+                    <span style = "margin : 10px">T1 vs GEN match 1 | 06.06 LCK 2020 Summer</span>
+                    <span style = "float : right; font-size : large">1013</span>
+                    <span class="material-icons" style ="float : right; margin-right : 5px; margin-left : 10px">star_border</span>
+                    <span style = "float : right; font-size : large">23013</span>
+                    <span class="material-icons" style ="float : right; margin-right : 5px">person</span>
+                </div>
+            </div>
             <div id = "chat" class = "chat">
                 <div style ="padding : 10px; background-color :  rgb(255, 249, 224);">
                     <div style ="display : inline;">Viewer</div>
                     <div id = "inviting" style ="display : inline; float : right">
-                            <span class="material-icons">person_add</span>
+                        <span class="material-icons">person_add</span>
                     </div>
                 </div>
                 <div class = "message">
@@ -24,26 +35,19 @@
                 <div class = "msgtype">
                     <table>
                         <tr>
-                            <td width = 330>
-                                <input id = "message_data" type ="text" style = "width : 330px; height : 60px"> 
+                            <td width = 320>
+                                <input id = "message_data" type ="text" style = "width : 100%; height : 60px;"> 
                             </td>
                             <td>
-                                <button id = "message_button" type ="submit" class ="submit" > 보내기 </button>
+                                <button id = "message_button" type ="submit" class ="submit" > Send </button>
                             </td>
                         </tr>
                     </table>
                 </div>
             </div>
+        </div>  
+            <hr width = 95% align = "left" style = "margin-top : 30px">
         </div>
-        <div id="roomTitle" class = "gametitle" style ="margin : 10px">
-            <img src = "./images/logo/logo_lck.jpg "  width = 40px height =40px class = "lcklogo">
-            <span style = "margin : 10px">T1 vs GEN match 1 | 06.06 LCK 2020 Summer</span>
-            <span style = "float : right; font-size : large">1013</span>
-            <span class="material-icons" style ="float : right; margin-right : 5px; margin-left : 10px">star_border</span>
-            <span style = "float : right; font-size : large">23013</span>
-            <span class="material-icons" style ="float : right; margin-right : 5px">person</span>
-        </div>
-        <hr width = 95% align = "left" style = "margin-top : 30px">
     </div>
 
 

@@ -1,44 +1,71 @@
 body {
     margin: 0;
 }
-.block{
-    margin-left : 50px;
-    margin-top : 30px;
-    margin-right : 50px;
-    margin-bottom : 30px;
+
+.totalContainer{
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
+
+.category {
+    font-family: Norwester;
+    font-size: 23px;
+    color: rgb(189, 189, 189);
+}
+
+.block{
+    display: flex;
+    margin-top : 20px;
+    margin-bottom : 10px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
 #video{
     font-family: Ubuntu;
+    margin-right: 10px;
 }
+
 .chat{
     width : 30%;
-    height : 63%;
-    position : absolute;
+    position: relative;
+    margin-left: 10px;
     border : 1px solid #bebebe;
     background-color: #ffffffc0;
     font-family: Norwester;
-    left : 890px;
-    top : 90px;
 }
+
+.message{
+    height: 57%;
+    padding-bottom : 30%;
+}
+
 .msgtype{
     position : absolute;
-    left : 10px;
-    top : 420px;
+    width: 98%;
 }
+
 .submit{
     font-family: Norwester;
     background-color: rgb(255, 249, 224);
     margin : 5px;
-    width : 60px;
+    width : 100%;
     height : 60px;
-
 }
+
 .gametitle{
     width : 780px;
     font-family: Norwester;
     font-size : x-large;
     font-weight: 100;
 }
+
 .lcklogo{
     position : static;
     top : 10px;
