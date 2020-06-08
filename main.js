@@ -310,7 +310,7 @@ $(document).ready(function () {
     $(document).on('click', '#createroom', function() {
         //alert("create room");
         initroomoption();
-        location.replace("#popup1");
+        location.replace("?#popup1");
     })
 
     $(document).on('click', '.room',function() {
