@@ -1,9 +1,6 @@
 $(document).ready(function () {
     $(".header").load('./homepage.html');
 
-    $("#official_live_streaming").load('./streamingvideo.html');
-
-
     let schedule = [];
     let streamers = [];
     let friends = [];
@@ -112,12 +109,12 @@ $(document).ready(function () {
             let replay = document.createElement("div");
             let imgSrc = "./images/replay/"+schedule[i].blue+"vs"+schedule[i].purple+".png";
             replay.className = 'replay';
-            replay.content = schedule[i].id;
+            replay.id = "gid" + schedule[i].id;
             replay.innerHTML = '<p><span style="font-family: Ubuntu; font-size: large">' + schedule[i].year+'.'+schedule[i].month+'.'+schedule[i].day+' '+schedule[i].blue+' vs '+schedule[i].purple + '</span></p>';
             let num = schedule[i].bluewin*1 + schedule[i].purplewin*1;
             for(let j = 0; j < num; j++) {
                 let set = document.createElement("div");
-                set.content = schedule[i].blue + "vs" + schedule[i].purple + "set" + (j+1);
+                set.content = (j+1);
                 set.className = 'horizontal set';
                 set.innerHTML = "<img class='thumbnail' src='" + imgSrc + "'width='192px' height='108px'><br><span style='font-family: Ubuntu; font-size: medium'>Set " + (j+1) + "</span>";
                 replay.appendChild(set);
@@ -330,7 +327,9 @@ $(document).ready(function () {
 
     $(document).on('click', '.set',function() {
         let set = this.content;
-        alert(set);
+        let gid = $(this).parent().attr("id");
+        //alert(gid.slice(3)+"-"+set);
+        location.replace("?gid="+gid.slice(3)+"&set="+set);
     })
 
     $(document).on('click','#official_streaming',function() {
