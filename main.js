@@ -22,15 +22,16 @@ $(document).ready(function () {
             for(var singleRow = 1; singleRow < allRows.length; singleRow++) {
                 var tmp = {};
                 var rowCells = allRows[singleRow].split(',');
-                tmp['year'] = rowCells[0];
-                tmp['month'] = rowCells[1];
-                tmp['day'] = rowCells[2];
-                tmp['hour'] = rowCells[3];
-                tmp['minute'] = rowCells[4];
-                tmp['blue'] = rowCells[5];
-                tmp['bluewin'] = rowCells[6];
-                tmp['purple'] = rowCells[7];
-                tmp['purplewin'] = rowCells[8];
+                tmp['id'] = rowCells[0];
+                tmp['year'] = rowCells[1];
+                tmp['month'] = rowCells[2];
+                tmp['day'] = rowCells[3];
+                tmp['hour'] = rowCells[4];
+                tmp['minute'] = rowCells[5];
+                tmp['blue'] = rowCells[6];
+                tmp['bluewin'] = rowCells[7];
+                tmp['purple'] = rowCells[8];
+                tmp['purplewin'] = rowCells[9];
                 schedule.push(tmp);
             }
         },
@@ -111,6 +112,7 @@ $(document).ready(function () {
             let replay = document.createElement("div");
             let imgSrc = "./images/replay/"+schedule[i].blue+"vs"+schedule[i].purple+".png";
             replay.className = 'replay';
+            replay.content = schedule[i].id;
             replay.innerHTML = '<p><span style="font-family: Ubuntu; font-size: large">' + schedule[i].year+'.'+schedule[i].month+'.'+schedule[i].day+' '+schedule[i].blue+' vs '+schedule[i].purple + '</span></p>';
             let num = schedule[i].bluewin*1 + schedule[i].purplewin*1;
             for(let j = 0; j < num; j++) {
