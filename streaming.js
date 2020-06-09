@@ -52,21 +52,6 @@ $(document).ready(function () {
 
     }
 
-    function initRoom() {
-        let title = getData("title");
-        let host = getData("host");
-        let secure = getData("option");
-        let prfLink = './images/profile/profile_'+host+'.png';
-        let chk = doesFileExist(prfLink);
-        if(!chk) {
-            prfLink = './images/profile/profile_default.png';
-        }
-        let roomtitle = document.getElementById("roomTitle");
-        roomtitle.innerHTML = '<img src = "'+prfLink+'"  height="40px" class = "lcklogo">';
-        roomtitle.innerHTML += '<span style = "margin : 10px">'+title+'</span>';
-        roomtitle.innerHTML += '<span style = "float : right; font-size : large">host : '+host+'</span>';
-    }
-
     function readFromDatabase() {
         let msgdiv = document.getElementById("msglog");
         msgdiv.innerHTML = "";
@@ -122,6 +107,5 @@ $(document).ready(function () {
 
     //showMsg();
     readFromDatabase();
-    initRoom();
     bindEvents();
 });
