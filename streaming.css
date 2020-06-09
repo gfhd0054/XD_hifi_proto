@@ -38,11 +38,13 @@ body {
 
 .chat{
     width : 30%;
+    height : 550px;
     position: relative;
     margin-left: 10px;
     border : 1px solid #bebebe;
     background-color: #ffffffc0;
     font-family: Norwester;
+    overflow : auto;
 }
 
 .message{
