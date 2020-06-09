@@ -48,6 +48,7 @@ body {
 .message{
     height: 57%;
     padding-bottom : 30%;
+    overflow: auto;
 }
 
 .msgtype{

@@ -40,18 +40,6 @@ $(document).ready(function () {
         }
     }
 
-    function getData(param) {
-        var url = location.href;
-        var params = (url.slice(url.indexOf('?') + 1, url.length)).split('&');
-        for (var i = 0; i < params.length; i++) {
-            let tmp = params[i].split('=')[0];
-            if (tmp.toUpperCase() == param.toUpperCase()) {
-                return decodeURIComponent(params[i].split('=')[1]);
-            }
-        }
-
-    }
-
     function readFromDatabase() {
         let msgdiv = document.getElementById("msglog");
         msgdiv.innerHTML = "";
@@ -75,7 +63,7 @@ $(document).ready(function () {
                 time += myValue[myKey].min;
             }
             
-            msg.innerHTML = myValue[myKey].content + "-" + myValue[myKey].writer + " at " + time;
+            msg.innerHTML = myValue[myKey].writer + " : " + myValue[myKey].content + " at " + time;
             msgdiv.appendChild(msg);
 
           }

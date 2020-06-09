@@ -95,7 +95,7 @@ $(document).ready(function () {
                 time += myValue[myKey].min;
             }
             
-            msg.innerHTML = myValue[myKey].content + "-" + myValue[myKey].writer + " at " + time;
+            msg.innerHTML = myValue[myKey].writer + " : " + myValue[myKey].content + " at " + time;
             msgdiv.appendChild(msg);
 
           }
