@@ -42,18 +42,6 @@ $(document).ready(function () {
         }
     }
 
-    function getData(param) {
-        var url = location.href;
-        var params = (url.slice(url.indexOf('?') + 1, url.length)).split('&');
-        for (var i = 0; i < params.length; i++) {
-            let tmp = params[i].split('=')[0];
-            if (tmp.toUpperCase() == param.toUpperCase()) {
-                return decodeURIComponent(params[i].split('=')[1]);
-            }
-        }
-
-    }
-
     function initRoom() {
         let title = getData("title");
         let host = getData("host");
@@ -155,9 +143,14 @@ $(window).click(function(){
 });
 
 $('#inviting').click(function(event){
-    var friend = document.getElementById('inviteFriends');
-    friend.style.visibility = 'visible';
-    event.stopPropagation();
+    if (getData('host') == 'Me') {
+        var friend = document.getElementById('inviteFriends');
+        friend.style.visibility = 'visible';
+        event.stopPropagation();
+    }
+    else {
+        alert("Ask invitation permission to host");
+    }
 });
 
 $('#inviteFriends').click(function(event){
@@ -184,3 +177,15 @@ $('#cancel').click(function(event){
         friend.style.visibility = 'hidden';
     }
 });
+
+function getData(param) {
+    var url = location.href;
+    var params = (url.slice(url.indexOf('?') + 1, url.length)).split('&');
+    for (var i = 0; i < params.length; i++) {
+        let tmp = params[i].split('=')[0];
+        if (tmp.toUpperCase() == param.toUpperCase()) {
+            return decodeURIComponent(params[i].split('=')[1]);
+        }
+    }
+
+}
