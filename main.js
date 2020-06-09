@@ -301,7 +301,7 @@ $(document).ready(function () {
             document.getElementById('noNameforRoom').innerHTML = 'Choose option.';
             return;
         }
-        location.replace("./privateroom.html?title="+inputBox.value+"&host=Myroom&option="+roomoption);
+        location.replace("./privateroom.html?title="+inputBox.value+"&host=Me&option="+roomoption);
     })
 
     $(document).on('click','.option', function() {
