@@ -82,7 +82,7 @@ $(document).ready(function () {
                 continue;
             }
             let msg = document.createElement("div");
-            msg.className = "msg";
+            msg.className = "singlemsg";
             let time;
             if(myValue[myKey].hour < 10) {
                 time = "0" + myValue[myKey].hour+":";
@@ -95,10 +95,14 @@ $(document).ready(function () {
                 time += myValue[myKey].min;
             }
             
-            msg.innerHTML = myValue[myKey].writer + " : " + myValue[myKey].content + " at " + time;
+            res = "<span style='color: rgba(100,100,200,1);'>" + myValue[myKey].writer + "</span>";
+            res += "<span style='float: right; font-size: small'>" + time + "</span><br>";
+            res += myValue[myKey].content;
+            msg.innerHTML = res;
             msgdiv.appendChild(msg);
 
           }
+          msgdiv.scrollTop = msgdiv.scrollHeight;
   
         });
       }

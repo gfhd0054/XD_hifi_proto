@@ -124,3 +124,8 @@ body {
     left : 43%;
     text-align: center;
 }
+
+.singlemsg{
+    padding: 5px;
+    white-space: normal;
+}
