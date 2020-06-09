@@ -66,7 +66,9 @@ $(document).ready(function () {
         let roomtitle = document.getElementById("roomTitle");
         roomtitle.innerHTML = '<img src = "'+prfLink+'"  height="40px" class = "lcklogo">';
         roomtitle.innerHTML += '<span style = "margin : 10px">'+title+'</span>';
+        roomtitle.innerHTML += '<span style = "float : right; font-size : large"><input type="button" value="Quit" onclick="direct_to_home()"></span>';
         roomtitle.innerHTML += '<span style = "float : right; font-size : large">host : '+host+'</span>';
+        
     }
 
     function readFromDatabase() {
