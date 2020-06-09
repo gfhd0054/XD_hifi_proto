@@ -50,7 +50,7 @@ $(document).ready(function () {
           for(var i = 0; i<keyList.length; i++) {
             var myKey = keyList[i];
             let msg = document.createElement("div");
-            msg.className = "msg";
+            msg.className = "singlemsg";
             let time;
             if(myValue[myKey].hour < 10) {
                 time = "0" + myValue[myKey].hour+":";

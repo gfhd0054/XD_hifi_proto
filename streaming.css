@@ -53,6 +53,19 @@ body {
     overflow: auto;
 }
 
+.message::-webkit-scrollbar {
+    width: 10px;
+}
+.message::-webkit-scrollbar-thumb {
+    background-color: #dfdfdf;
+    border-radius: 10px;
+}
+.message::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
 .msgtype{
     position : absolute;
     width: 98%;
