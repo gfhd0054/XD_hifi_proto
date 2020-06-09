@@ -28,17 +28,6 @@ $(document).ready(function () {
 
 
 
-    function doesFileExist(urlToFile) {
-        var xhr = new XMLHttpRequest();
-        xhr.open('HEAD', urlToFile, false);
-        xhr.send();
-         
-        if (xhr.status == "404") {
-            return false;
-        } else {
-            return true;
-        }
-    }
 
     function readFromDatabase() {
         let msgdiv = document.getElementById("msglog");
