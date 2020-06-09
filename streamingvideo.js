@@ -12,6 +12,7 @@ var userAnswer = {'dragon': -1, 'player': -1};
 
 video.onloadedmetadata = function(){
     convertVolToIcon(video.volume);
+    togglePlayPause();
 };
 
 function togglePlayPause() {
@@ -68,35 +69,14 @@ video.addEventListener('timeupdate', function(){
 });
 
 window.addEventListener('keypress', function(e){
-    var keyCode = e.keyCode;
-    if(keyCode == 32) {
-        togglePlayPause();
-    }
+    
 });
 
 window.addEventListener('keydown', function(e){
     var keyCode = e.keyCode;
     var curTime = video.currentTime;
     var curVol = video.volume;
-    if (keyCode == 37) {
-        curTime -= 5;
-        if (curTime < 0) {
-            video.currentTime = 0;
-        }
-        else {
-            video.currentTime = curTime;
-        }
-    }
-    else if (keyCode == 39) {
-        curTime += 5;
-        if (curTime > video.duration) {
-            video.currentTime = 0;
-        }
-        else {
-            video.currentTime = curTime;
-        }
-    }
-    else if (keyCode == 40) {
+    if (keyCode == 40) {
         curVol -= 0.1;
         curVol = (curVol <= 0) ? 0 : curVol;
         convertVolToIcon(curVol);
