@@ -88,3 +88,12 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 
 
 ### Representative Screenshots
+
+1. Task 1
+   ![Alt text](./images/Task%201.png) 
+   
+2. Task 2
+   ![Alt text](./images/Task%202.png) 
+   
+3. Task 3
+   ![Alt text](./images/Task%203.png)
