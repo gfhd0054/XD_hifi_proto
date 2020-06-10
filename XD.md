@@ -48,6 +48,7 @@
 ## Tasks
 
 Solutions are translated into three user-level tasks in our prototype. Below the task is scenario of each task.
+**Assumed** that user is **already logged in** and the date is **2020.06.09**.
  
 1. Watch live match in the 'private room' with your friends.
    1. Click create room button to create your room. you should set name of your room and option for it. 
@@ -86,7 +87,8 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 
 ### Libraries and frameworks
 
-- We developed video player feature from youtube.
+- Developed video player feature from youtube.
+- Developed chat system feature from zoom.
 
 
 ### Representative Screenshots
@@ -99,3 +101,19 @@ Solutions are translated into three user-level tasks in our prototype. Below the
    
 3. Task 3
    ![Alt text](./images/Task%203.png)
+
+
+
+### Studio Reflections
+
+1. Is there no sign-up function though there are chatting and friend systems?
+   - We assume that it is alredy logged in. So we should tell user before starting user test clearly.
+
+2. How the timestamp in the replay video is generated?
+   
+3. Implement prototype by studio reflection
+   - Schedule
+     - User can not only click the arrow button but also scoll to control schedule
+     - User can see more detailed information of the schdule of games (e.g. current game, time)
+   - Chatting system
+     - Distribute friend's chat and user's chat
