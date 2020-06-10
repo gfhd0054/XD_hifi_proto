@@ -86,6 +86,8 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 
 ### Libraries and frameworks
 
+- We developed video player feature from youtube.
+
 
 ### Representative Screenshots
 
