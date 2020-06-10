@@ -12,7 +12,7 @@
  
 ## POV
  
-- “League of Legend” league match viewers, who watch it regularly...
+- "League of Legend" league match viewers, who watch it regularly...
  
 - are looking for more enjoyable way to watch matches...
  
@@ -21,7 +21,7 @@
  
 ## Target users
 
-
+- "League of Legend" league match viewers who felt boring at current system, just watching game.
  
  
 ## Solutions
