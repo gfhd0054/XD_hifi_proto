@@ -29,6 +29,7 @@ link : https://gfhd0054.github.io/XD_hifi_proto/
 **index.html, main.css, main.js**
 
 - Main homepage UI and interactions
+- changed main.html in previous git to index.html
 - Pop-up UI and interactions while creating private room. - Task 1.
 
 **newroom.css**
