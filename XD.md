@@ -92,6 +92,7 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 
 - Directly referred from
 https://codepen.io/imprakash/pen/GgNMXO
+https://codepen.io/nikhilrajnair/pen/VjXYGg
 https://www.kirupa.com/html5/checking_if_a_file_exists.htm
 
 
@@ -120,10 +121,14 @@ https://www.kirupa.com/html5/checking_if_a_file_exists.htm
    - working experience with other team mates 
 ### Yourim
 - Which part of the UI did you directly contribute to?
+   - I directly contribute to private room setting UI. I built popup of setting option for private room.
 
 - What were some of the difficulties you faced?
-
+   - popup code i made in other html did not work for actual main page. Junyoung helped me at this issue. 
+   - Also I was likely to lost when I look for specific div or elements in other’s code in inspect mode.
+  
 - List one of useful implementation skill you learned while working on this milestone.
+   - (1) Ctrl+Shift+F for VScode / (2) set two class to an element by space e.g. class=“aaaa bbbb”
 
 ### Jaejun
 - Which part of the UI did you directly contribute to?
