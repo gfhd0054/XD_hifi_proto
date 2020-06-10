@@ -112,9 +112,9 @@ Solutions are translated into three user-level tasks in our prototype. Below the
       - recommended video
       - basic chatting structure
 - What were some of the difficulties you faced?
-   - 
+   - Build Chatting system(Thanks to Jun-young, it could be implemented.)
 - List one of useful implementation skill you learned while working on this milestone.
-   - working experience with other team mates 
+   - working experience with team mates in real time using Git Hub
 ### Yourim
 - Which part of the UI did you directly contribute to?
 
