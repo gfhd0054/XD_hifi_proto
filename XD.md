@@ -16,12 +16,12 @@
  
 - are looking for more enjoyable way to watch matches...
  
-- since user wants to lightly enjoy the league contents, not too detailed information.
+- since user wants to lightly enjoy the league contents, neither too detailed information nor boring.
   
  
 ## Target users
 
-- "League of Legend" league match viewers who felt boring at current system, just watching game.
+- "League of Legend" league match viewers who felt boring at current system that just watching game.
  
  
 ## Solutions
@@ -51,7 +51,7 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 **Assumed** that user is **already logged in** and the date is **2020.06.09**.
  
 1. Watch live match in the 'private room' with your friends.
-   1. Click create room button to create your room. you should set name of your room and option for it. 
+   1. Click 'create room' button to create your room. Set the room name. Set option as 'Private'. 
    2. OR click friend’s room button to enter friend's room and watch matches together.
    3. While watching, you can also invite friends to your room.
    4. You can chat with your friends.
@@ -59,11 +59,12 @@ Solutions are translated into three user-level tasks in our prototype. Below the
    
  
 2. Go to the official streaming. Enjoy it and take a pop-up game.
-   1. Go to watch official streaming of the league matches by clicking "Public Broadcast" text or thumbnail in the main page.
-   2. Clicking the play button or video itself to play the current streaming.
-   3. Popup for quiz will appear. Time to solve quiz is shown intuitively. When time set, popup disappear automatically. popup  Solving is not necessary.
-   4. When the question situation is happened, popup to tell whether you are correct or not appears. It will disappear like quiz popup.
-   5. You can keep enjoying watching matches.
+   1. Make sure you are in main page.
+   2. Go to watch official streaming of the league matches by clicking "Public Broadcast" text or thumbnail in the main page.
+   3. Videos would be auto-played.
+   4. Pop-up game will appear. Time to solve quiz is shown intuitively. When time set, pop-up disappears automatically. It is not necessary to solve.
+   5. When the answer is confirmed in-match, pop-up would tell you whether you're correct or not. It will disappear in a few seconds.
+   6. You can keep enjoying watching matches.
 
  
 3. Watch the replay video [2020. 06. 07 DRX vs DWG set1]
@@ -87,6 +88,9 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 
 ### Libraries and frameworks
 
+- FontAwesome for icons : https://use.fontawesome.com/releases/v5.0.8/css/all.css
+- Google Fonts(Ubuntu family) : https://fonts.googleapis.com/css?family=Ubuntu
+- jQuery Easing v1.3 : http://gsgd.co.uk/sandbox/jquery/easing/
 - Developed video player feature from youtube.
 - Developed chat system feature from zoom.
 
