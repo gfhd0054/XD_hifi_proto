@@ -119,16 +119,22 @@ https://www.kirupa.com/html5/checking_if_a_file_exists.htm
       - recommended video
       - basic chatting structure
 - What were some of the difficulties you faced?
-   - 
+
 - List one of useful implementation skill you learned while working on this milestone.
    - working experience with other team mates 
+
 ### Yourim
 - Which part of the UI did you directly contribute to?
+   - I directly contribute to private room setting UI. I built popup of setting option for private room.
 
 - What were some of the difficulties you faced?
+   - popup code i made in other html did not work for actual main page. Junyoung helped me at this issue. 
+   - Also I was likely to lost when I look for specific div or elements in other’s code in inspect mode.
+
 
 - List one of useful implementation skill you learned while working on this milestone.
-
+   - (1) Ctrl+Shift+F for VScode / (2) set two class to an element by space e.g. class=“aaaa bbbb”
+   
 ### Jaejun
 - Which part of the UI did you directly contribute to?
    - Toolbar at the upmost of window.
