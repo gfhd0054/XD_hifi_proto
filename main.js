@@ -232,14 +232,26 @@ $(document).ready(function () {
                             res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
                         }
                     } else {
-                        res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
+                        if(schedule[i].bluewin > schedule[i].purplewin) {
+                            res += "<span style='color:rgb(100,100,200)'>" + schedule[i].bluewin + "</span> vs <span style='color:rgb(200,100,100)'>" + schedule[i].purplewin + "</span>";
+                        } else if(schedule[i].bluewin < schedule[i].purplewin){
+                            res += "<span style='color:rgb(200,100,100)'>" + schedule[i].bluewin + "</span> vs <span style='color:rgb(100,100,200)'>" + schedule[i].purplewin + "</span>";
+                        } else {
+                            res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
+                        }
                     }
                     
                 } else if(day < schedule[i].day) {
                     res += "D - " + (schedule[i].day - day).toString() + "<br>";
                     res += "<span style='font-size: small;'>" + schedule[i].hour + " : " + schedule[i].minute + "0</span>";
                 } else {
-                    res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
+                    if(schedule[i].bluewin > schedule[i].purplewin) {
+                        res += "<span style='color:rgb(100,100,200)'>" + schedule[i].bluewin + "</span> vs <span style='color:rgb(200,100,100)'>" + schedule[i].purplewin + "</span>";
+                    } else if(schedule[i].bluewin < schedule[i].purplewin) {
+                        res += "<span style='color:rgb(200,100,100)'>" + schedule[i].bluewin + "</span> vs <span style='color:rgb(100,100,200)'>" + schedule[i].purplewin + "</span>";
+                    } else {
+                        res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
+                    }
                 }
             } else if(month < schedule[i].month) {
                 if(month == 5) {
@@ -250,7 +262,13 @@ $(document).ready(function () {
                     res += "<span style='font-size: small;'>" + schedule[i].hour + " : " + schedule[i].minute + "0</span>";
                 }
             } else {
-                res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
+                if(schedule[i].bluewin > schedule[i].purplewin) {
+                    res += "<span style='color:rgb(100,100,200)'>" + schedule[i].bluewin + "</span> vs <span style='color:rgb(200,100,100)'>" + schedule[i].purplewin + "</span>";
+                } else if(schedule[i].bluewin < schedule[i].purplewin) {
+                    res += "<span style='color:rgb(200,100,100)'>" + schedule[i].bluewin + "</span> vs <span style='color:rgb(100,100,200)'>" + schedule[i].purplewin + "</span>";
+                } else {
+                    res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
+                }
             }
         }
         center.innerHTML = res;
