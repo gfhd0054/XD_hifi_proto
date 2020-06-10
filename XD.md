@@ -94,8 +94,11 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 - Developed video player feature from youtube.
 - Developed chat system feature from zoom.
 
-- Directly referred from
+### Directly referred from
 https://codepen.io/imprakash/pen/GgNMXO
+
+https://codepen.io/nikhilrajnair/pen/VjXYGg
+
 https://www.kirupa.com/html5/checking_if_a_file_exists.htm
 
 
