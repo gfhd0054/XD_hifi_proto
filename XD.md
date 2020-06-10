@@ -110,11 +110,14 @@ https://www.kirupa.com/html5/checking_if_a_file_exists.htm
 
 ### SangUk
 - Which part of the UI did you directly contribute to?
-
+   - Streaming Page of the website
+      - basic layout
+      - recommended video
+      - basic chatting structure
 - What were some of the difficulties you faced?
-
+   - 
 - List one of useful implementation skill you learned while working on this milestone.
-
+   - working experience with other team mates 
 ### Yourim
 - Which part of the UI did you directly contribute to?
 
