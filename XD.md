@@ -90,6 +90,9 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 - Developed video player feature from youtube.
 - Developed chat system feature from zoom.
 
+- Directly referred from
+https://codepen.io/imprakash/pen/GgNMXO
+
 
 ## Representative Screenshots
 
