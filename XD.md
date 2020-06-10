@@ -91,16 +91,6 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 - FontAwesome for icons : https://use.fontawesome.com/releases/v5.0.8/css/all.css
 - Google Fonts(Ubuntu family) : https://fonts.googleapis.com/css?family=Ubuntu
 - jQuery Easing v1.3 : http://gsgd.co.uk/sandbox/jquery/easing/
-- Developed video player feature from youtube.
-- Developed chat system feature from zoom.
-
-### Directly referred from
-https://codepen.io/imprakash/pen/GgNMXO
-
-https://codepen.io/nikhilrajnair/pen/VjXYGg
-
-https://www.kirupa.com/html5/checking_if_a_file_exists.htm
-
 
 ## Representative Screenshots
 
@@ -122,22 +112,16 @@ https://www.kirupa.com/html5/checking_if_a_file_exists.htm
       - recommended video
       - basic chatting structure
 - What were some of the difficulties you faced?
-
+   - 
 - List one of useful implementation skill you learned while working on this milestone.
    - working experience with other team mates 
-
 ### Yourim
 - Which part of the UI did you directly contribute to?
-   - I directly contribute to private room setting UI. I built popup of setting option for private room.
 
 - What were some of the difficulties you faced?
-   - popup code i made in other html did not work for actual main page. Junyoung helped me at this issue. 
-   - Also I was likely to lost when I look for specific div or elements in other’s code in inspect mode.
-
 
 - List one of useful implementation skill you learned while working on this milestone.
-   - (1) Ctrl+Shift+F for VScode / (2) set two class to an element by space e.g. class=“aaaa bbbb”
-   
+
 ### Jaejun
 - Which part of the UI did you directly contribute to?
    - Toolbar at the upmost of window.
@@ -194,3 +178,9 @@ https://www.kirupa.com/html5/checking_if_a_file_exists.htm
      - User can see more detailed information of the schdule of games (e.g. current game, time)
    - Chatting system
      - Distribute friend's chat and user's chat
+
+## References
+- Create A Custom HTML5 Video Player, https://youtu.be/yY6XnbWnK4o
+- Chatting message design from zoom chat, https://zoom.us/
+- function *doesFileExist()* in main.js, https://www.kirupa.com/html5/checking_if_a_file_exists.htm
+- Pop-up feature structure, https://codepen.io/imprakash/pen/GgNMXO
