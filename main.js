@@ -176,14 +176,12 @@ $(document).ready(function () {
         let month = 6;
         let day = 9;
 
-
-
         for(let i = 0; i < schedule.length; i++) {
             if(year == schedule[i].year) {
                 if(month == schedule[i].month) {
                     if(day <= schedule[i].day) {
                         current = i;
-                        updateSchedule(i);
+                        updateSchedule();
                         return;
                     }
                 }
@@ -191,50 +189,34 @@ $(document).ready(function () {
         }
     }
 
-    function updateSchedule(i) {
-
+    function updateSchedule() {
         let today = new Date();
         let scheduleTable = document.getElementById("scheduletable");
-        let numRows = scheduleTable.rows.length;
+        scheduleTable.innerHTML = "";
 
-        for(let i = 1; i < numRows-1; i++) {
-            scheduleTable.deleteRow(1);
+        let line1;
+        for(let j = 0; j < schedule.length; j++) {
+            line1 = document.createElement("div");
+            line1.className = 'line';
+            fillSchedule(line1,today, j);
+            scheduleTable.appendChild(line1);
         }
-
-        schNum = i;
-        var newRow = scheduleTable.insertRow(1);
-        newRow.className = 'line';
-        newRow.innerHTML = fillSchedule(today, i-2);
-        newRow = scheduleTable.insertRow(1);
-        newRow.className = 'line';
-        newRow.innerHTML = fillSchedule(today, i-1);
-        newRow = scheduleTable.insertRow(1);
-        newRow.className = 'line';
-        newRow.innerHTML = fillSchedule(today, i);
-        newRow = scheduleTable.insertRow(1);
-        newRow.className = 'line';
-        newRow.innerHTML = fillSchedule(today, i+1);
-        newRow = scheduleTable.insertRow(1);
-        newRow.className = 'line';
-        newRow.innerHTML = fillSchedule(today, i+2);
-        return;
-
+        scheduleTable.scrollTop = current * 75 - 150;
     }
 
-    function fillSchedule(today, i) {
-        res = "<img src='./images/logo/logo_" + schedule[i].blue + ".png' height='50px' width='50px' alt='"+schedule[i].blue+"' class='leftTeam'>";
-        // let year = today.getFullYear();
-        // let month = today.getMonth();
-        // let day = today.getDate();
-        // let hour = today.getHours();
-        // let min = today.getMinutes();
-
+    function fillSchedule(line, today, i) {
+        let left = document.createElement("div");
+        left.className = "leftTeam divTb";
+        left.innerHTML = "<img src='./images/logo/logo_" + schedule[i].blue + ".png' height='50px' width='50px' alt='"+schedule[i].blue+"'>";
+        let center = document.createElement("div");
+        
         let year = 2020;
         let month = 6;
         let day = 9;
         let hour = 17;
         let min = 0;
 
+        let res="";
         if(year == schedule[i].year) {
             if(month == schedule[i].month) {
                 if(day == schedule[i].day) {
@@ -244,6 +226,9 @@ $(document).ready(function () {
                         if(min < schedule[i].min) {
                             res += schedule[i].hour + " : " + schedule[i].minute + "0";
                         } else {
+                            if(i == current) {
+                                res += "Now<br>";
+                            }
                             res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
                         }
                     } else {
@@ -265,7 +250,14 @@ $(document).ready(function () {
                 res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
             }
         }
-        return res + "  <img src='./images/logo/logo_" + schedule[i].purple + ".png' height='50px' width='50px' alt='"+schedule[i].purple+"' class='rightTeam'>";
+        center.innerHTML = res;
+        center.className = "divTb";
+        let right = document.createElement("div");
+        right.className = "rightTeam divTb";
+        right.innerHTML = "<img src='./images/logo/logo_" + schedule[i].purple + ".png' height='50px' width='50px' alt='"+schedule[i].purple+"'>";
+        line.appendChild(left);
+        line.appendChild(center);
+        line.appendChild(right);
     }
 
     function iterateOption() {
@@ -343,14 +335,14 @@ $(document).ready(function () {
         window.open(link);
     });
 
-    $('#scheduletable tbody').on('click','#upSchedule',function() {
-        if(schNum >= schedule.length - 4) return;
-        updateSchedule(schNum + 1);
+    $(document).on('click','#upSchedule',function() {
+        let scheduleTable = document.getElementById("scheduletable");
+        scheduleTable.scrollTop-=75;
     });
 
-    $('#scheduletable tbody').on('click','#downSchedule',function() {
-        if(schNum <= 2) return;
-        updateSchedule(schNum - 1);
+    $(document).on('click','#downSchedule',function() {
+        let scheduleTable = document.getElementById("scheduletable");
+        scheduleTable.scrollTop+=75;
     });
 
 

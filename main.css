@@ -41,6 +41,14 @@
 
 #scheduletable {
     text-align: center;
+    height: 350px;
+    width: 180px;
+    overflow: scroll;
+}
+
+#scheduletable::-webkit-scrollbar {
+    width: 1px;
+    display: none;
 }
 
 .column_left {
@@ -53,8 +61,9 @@
 
 .line {
     background-color: #F1F1F1;
-    padding: 10px;
-    width: 350px;
+    padding: 5px;
+    margin: 5px;
+    width: 165px;
     height: 60px;
     text-align: center;
 }
@@ -94,21 +103,29 @@
 }
 
 #upSchedule{
+    text-align: center;
     cursor: pointer;
 }
 
 #downSchedule{
+    text-align: center;
     cursor: pointer;
 }
 
 .leftTeam{
     margin-right: 10px;
     padding-top: 5px;
+    float: left;
 }
 
 .rightTeam{
     margin-left: 10px;
     padding-top: 5px;
+    float: right;
+}
+
+.divTb{
+    display: inline-block;
 }
 
 .videoHover {
