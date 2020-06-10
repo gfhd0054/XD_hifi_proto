@@ -95,13 +95,13 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 ## Representative Screenshots
 
 ### 1. Task 1
-   ![Task1PNG](https://ibb.co/khTq7JM) 
+   ![Task1PNG](https://i.ibb.co/MRHPvf9/Task-1.png) 
    
 ### 2. Task 2
-   ![Task2PNG](https://ibb.co/sR8hYH0) 
+   ![Task2PNG](https://i.ibb.co/B30mMNX/Task-2.png) 
    
 ### 3. Task 3
-   ![Task3PNG](https://ibb.co/jyTnp84)
+   ![Task3PNG](https://i.ibb.co/X7bcwWJ/Task-3.png)
 
 ## Individual Reflections
 
