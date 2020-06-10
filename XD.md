@@ -95,13 +95,13 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 ## Representative Screenshots
 
 ### 1. Task 1
-   ![Task1PNG](https://i.ibb.co/MRHPvf9/Task-1.png) 
+   ![Task1PNG](https://raw.githubusercontent.com/gfhd0054/XD_hifi_proto/master/images/Task%201.png) 
    
 ### 2. Task 2
-   ![Task2PNG](https://i.ibb.co/B30mMNX/Task-2.png) 
+   ![Task2PNG](https://raw.githubusercontent.com/gfhd0054/XD_hifi_proto/master/images/Task%202.png) 
    
 ### 3. Task 3
-   ![Task3PNG](https://i.ibb.co/X7bcwWJ/Task-3.png)
+   ![Task3PNG](https://raw.githubusercontent.com/gfhd0054/XD_hifi_proto/master/images/Task%203.png)
 
 ## Individual Reflections
 
