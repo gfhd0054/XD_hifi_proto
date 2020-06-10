@@ -39,7 +39,6 @@ $(document).ready(function () {
           for(var i = 0; i<keyList.length; i++) {
             var myKey = keyList[i];
             let msg = document.createElement("div");
-            msg.className = "singlemsg";
             let time;
             if(myValue[myKey].hour < 10) {
                 time = "0" + myValue[myKey].hour+":";
@@ -52,9 +51,17 @@ $(document).ready(function () {
                 time += myValue[myKey].min;
             }
 
-            res = "<span style='color: rgba(100,100,200,1);'>" + myValue[myKey].writer + "</span>";
-            res += "<span style='float: right; font-size: small'>" + time + "</span><br>";
-            res += myValue[myKey].content;
+            if(myValue[myKey].writer == "Me") {
+                msg.className = "mymsg";
+                res = "<span style='font-size: x-small; color: rgba(150,150,150,1);'>" + time + "</span>";
+                res += "<span style='float: right; color: rgba(100,100,200,1);'>" + myValue[myKey].writer + "</span><br>";
+                res += "<span style='float: right;'>" + myValue[myKey].content + "</span>";
+            } else {
+                msg.className = "singlemsg";
+                res = "<span style='color: rgba(100,100,200,1);'>" + myValue[myKey].writer + "</span>";
+                res += "<span style='float: right; font-size: small; color: rgba(150,150,150,1);'>" + time + "</span><br>";
+                res += myValue[myKey].content;
+            }
             msg.innerHTML = res;
             msgdiv.appendChild(msg);
 
