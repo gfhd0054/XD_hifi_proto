@@ -92,6 +92,7 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 
 - Directly referred from
 https://codepen.io/imprakash/pen/GgNMXO
+https://www.kirupa.com/html5/checking_if_a_file_exists.htm
 
 
 ## Representative Screenshots
