@@ -91,7 +91,7 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 - Developed chat system feature from zoom.
 
 
-### Representative Screenshots
+## Representative Screenshots
 
 1. Task 1
    ![Alt text](./images/Task%201.png) 
@@ -102,9 +102,47 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 3. Task 3
    ![Alt text](./images/Task%203.png)
 
+## Individual Reflections
 
+### SangUk
+- Which part of the UI did you directly contribute to?
 
-### Studio Reflections
+- What were some of the difficulties you faced?
+
+- List one of useful implementation skill you learned while working on this milestone.
+
+### Yourim
+- Which part of the UI did you directly contribute to?
+
+- What were some of the difficulties you faced?
+
+- List one of useful implementation skill you learned while working on this milestone.
+
+### Jaejun
+- Which part of the UI did you directly contribute to?
+
+- What were some of the difficulties you faced?
+
+- List one of useful implementation skill you learned while working on this milestone.
+
+### Junyoung
+- Which part of the UI did you directly contribute to?
+   - Main page of the website
+      - schedule, recommended streamer
+      - list friends' room
+      - list replay list
+   - Chatting system in the official streaming and private room
+   - Distributing pages according to the information of the room
+      - replay of different game
+      - room of different person 
+
+- What were some of the difficulties you faced?
+   - Adjust the size of the element to organize UI good to see. e.g. width and height of div
+  
+- List one of useful implementation skill you learned while working on this milestone.
+   - creating and using "div" element by javascript as child or parent of other "div" element from database or data file.
+
+## Studio Reflections
 
 1. Is there no sign-up function though there are chatting and friend systems?
    - We assume that it is alredy logged in. So we should tell user before starting user test clearly.
