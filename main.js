@@ -195,13 +195,13 @@ $(document).ready(function () {
         scheduleTable.innerHTML = "";
 
         let line1;
-        for(let j = 0; j < schedule.length; j++) {
+        for(let j = schedule.length-1; j >= 0; j--) {
             line1 = document.createElement("div");
             line1.className = 'line';
             fillSchedule(line1,today, j);
             scheduleTable.appendChild(line1);
         }
-        scheduleTable.scrollTop = current * 75 - 150;
+        scheduleTable.scrollTop = (schedule.length - 1 - current) * 75 - 150;
     }
 
     function fillSchedule(line, today, i) {
@@ -236,15 +236,18 @@ $(document).ready(function () {
                     }
                     
                 } else if(day < schedule[i].day) {
-                    res += "D - " + (schedule[i].day - day).toString();
+                    res += "D - " + (schedule[i].day - day).toString() + "<br>";
+                    res += "<span style='font-size: small;'>" + schedule[i].hour + " : " + schedule[i].minute + "0</span>";
                 } else {
                     res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
                 }
             } else if(month < schedule[i].month) {
                 if(month == 5) {
-                    res += "D - " + (schedule[i].day + 31 - day).toString();
+                    res += "D - " + (schedule[i].day + 31 - day).toString() + "<br>";
+                    res += "<span style='font-size: small;'>" + schedule[i].hour + " : " + schedule[i].minute + "0</span>";
                 } else {
-                    res += "D - " + (schedule[i].day + 30 - day).toString();
+                    res += "D - " + (schedule[i].day + 30 - day).toString() + "<br>";
+                    res += "<span style='font-size: small;'>" + schedule[i].hour + " : " + schedule[i].minute + "0</span>";
                 }
             } else {
                 res += schedule[i].bluewin + " vs " + schedule[i].purplewin;
