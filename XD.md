@@ -168,16 +168,23 @@ Solutions are translated into three user-level tasks in our prototype. Below the
 ## Studio Reflections
 
 1. Is there no sign-up function though there are chatting and friend systems?
-   - We assume that it is alredy logged in. So we should tell user before starting user test clearly.
+   - We assume that it is already logged in. We should tell user before starting user test clearly.
 
 2. How the timestamp in the replay video is generated?
+   - It is now hard-coded data, but we would develop it so that users can create it. We would also approach to generate timestamp data from user vote, using GMM or something else.
    
-3. Implement prototype by studio reflection
+3. Development after studio reflection
    - Schedule
      - User can not only click the arrow button but also scoll to control schedule
      - User can see more detailed information of the schdule of games (e.g. current game, time)
    - Chatting system
      - Distribute friend's chat and user's chat
+     
+ 4. Future plan
+    - Pop-up game.
+       - Add real-time vote status display.
+    - Timestamp
+       - Make user can create own timestamp.
 
 ## References
 - Create A Custom HTML5 Video Player, https://youtu.be/yY6XnbWnK4o
