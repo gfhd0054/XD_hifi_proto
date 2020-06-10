@@ -119,7 +119,7 @@ https://www.kirupa.com/html5/checking_if_a_file_exists.htm
       - recommended video
       - basic chatting structure
 - What were some of the difficulties you faced?
-   - 
+
 - List one of useful implementation skill you learned while working on this milestone.
    - working experience with other team mates 
 ### Yourim
