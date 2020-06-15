@@ -11,7 +11,7 @@ body {
 }
 
 .category {
-    font-family: Norwester;
+    font-family: Barlow;
     font-size: 23px;
     color: rgb(189, 189, 189);
 }
@@ -72,7 +72,7 @@ body {
 }
 
 .submit{
-    font-family: Norwester;
+    font-family: Ubuntu;
     background-color: rgb(255, 249, 224);
     margin : 5px;
     width : 100%;
@@ -81,7 +81,7 @@ body {
 
 .gametitle{
     width : 780px;
-    font-family: Norwester;
+    font-family: Barlow;
     font-size : x-large;
     font-weight: 100;
 }
@@ -132,7 +132,7 @@ body {
     font-size : xx-large;
     font-weight: bold;
     position: absolute;
-    font-family: Norwester;
+    font-family: Barlow;
     top : 30px;
     left : 43%;
     text-align: center;

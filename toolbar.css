@@ -40,7 +40,8 @@
 
 .homeButtonContents {
     display: flex;
-    font-family: Norwester;
+    font-family: Barlow;
+    font-weight: 700;
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -70,7 +71,7 @@
 
 #XD {
     color: rgb(145, 111, 19);
-    margin-right: 14px;
+    margin-right: 4px;
 }
 
 #leagueName {
