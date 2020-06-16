@@ -7,8 +7,8 @@
     <link href="./replayvideo.css" rel="stylesheet" />
 </head>
 <body>  
-    <div class="container">
-        <div class="frame">
+    <div class="container" id='container'>
+        <div class="frame" id = "frame">
             <video class="videoRaw" src="./video/replay.mp4"></video>
             <div class="controls">
                 <div class="frontButtons">
@@ -26,6 +26,15 @@
                         <div class="statusBar">
                         </div>
                     </div>
+                    </div>
+                </div>
+                <div id="clippedDiv">
+                    <span id="addClip">+</span>
+                </div>
+                <div id="selectTeam">
+                    <div class='tteam' id="team1">
+                    </div>
+                    <div class='tteam' id="team2">
                     </div>
                 </div>
                 <div class="backButtons">

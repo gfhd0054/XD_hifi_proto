@@ -256,36 +256,7 @@ function drawTimestamp() {
             tmstmp.style.top = 0;
         }
 
-        if (data['team'] == "AF") {
-            tmstmp.style.background = 'rgba(5, 69, 177, 1)';
-        }
-        else if (data['team'] == "APK") {
-            tmstmp.style.background = 'rgba(215, 70, 70, 1)';
-        }
-        else if (data['team'] == "DRX") {
-            tmstmp.style.background = 'rgba(87, 140, 247, 1)';
-        }
-        else if (data['team'] == "DWG") {
-            tmstmp.style.background = 'rgba(48, 208, 178, 1)';
-        }
-        else if (data['team'] == "GEN") {
-            tmstmp.style.background = 'rgba(165, 135, 33, 1)';
-        }
-        else if (data['team'] == "GRF") {
-            tmstmp.style.background = 'rgba(215, 24, 31, 1)';
-        }
-        else if (data['team'] == "HLE") {
-            tmstmp.style.background = 'rgba(255, 107, 1, 1)';
-        }
-        else if (data['team'] == "KT") {
-            tmstmp.style.background = 'rgba(34, 30, 31, 1)';
-        }
-        else if (data['team'] == "SB") {
-            tmstmp.style.background = 'rgba(173, 28, 49, 1)';
-        }
-        else if (data['team'] == "T1") {
-            tmstmp.style.background = 'rgba(226, 30, 47, 1)';
-        }
+        tmstmp.style.background = teamColor(data['team']);
         
         playBar.appendChild(tmstmp);
     }
@@ -313,33 +284,170 @@ function drawTimestamp() {
             }
         });
     }
-    
-    $('#flag').click(function(){
-        if (flagMode == 1) {
-            flagMode = 0;
-            this.style.color = 'rgb(190, 190, 190)';
-            $('.stamp').hide();
-            var votePanel = document.getElementById("votePanel");
-            votePanel.style.visibility = 'hidden';
-        }
-        else if (flagMode == 0) {
-            flagMode = 1;
-            this.style.color = 'white';
-            $('.stamp').show();
-            if (document.getElementsByClassName("activestamp").length > 0) {
-                var votePanel = document.getElementById("votePanel");
-                votePanel.style.visibility = 'visible';
-            }
-        }
-    });
 
-    $('#flag').hover(function(){
-        if (flagMode == 0) {
-            this.style.color = 'white';
-        }
-    }, function(){
-        if (flagMode == 0) {
-            this.style.color = 'rgb(190, 190, 190)';
+    $('#team1').css("background", teamColor(bteam));
+    $('#team2').css("background", teamColor(pteam));
+}
+
+function voteTimeStamp(team) {
+    var clip = document.getElementById("clippedDiv");
+    var tmstmp = document.createElement('div');
+    tmstmp.classList.add('stamp');
+    tmstmp.classList.add('activestamp');
+    tmstmp.classList.add('gotsarajim');
+    tmstmp.style.left = clip.offsetLeft - 151 + 'px';
+    tmstmp.style.background = teamColor(team);
+    playBar.appendChild(tmstmp);
+    $(".gotsarajim").animate({
+        opacity: 0,
+    }, {
+        duration: 3000,
+        easing: 'linear',
+        complete: function(){
+            playBar.removeChild(tmstmp);
         }
     });
+}
+
+$(window).click(function(){
+    if (!idIsHovered('playBar')) {
+        var selectTeam = document.getElementById('selectTeam');
+        var clip = document.getElementById("clippedDiv");
+        if (selectTeam.style.visibility == 'visible') {
+            selectTeam.style.visibility = 'hidden';
+        }
+        if (clip.style.display == 'block') {
+            clip.style.display = 'none';
+        }
+    }
+});
+
+$('#addClip').click(function(event){
+    document.getElementById('selectTeam').style.visibility = 'visible';
+    event.stopPropagation();
+});
+
+$('#team1').click(function(event){
+    event.stopPropagation();
+    var selectTeam = document.getElementById('selectTeam');
+    if (selectTeam.style.visibility == 'visible') {
+        selectTeam.style.visibility = 'hidden';
+    }
+    voteTimeStamp(getteam('blue'), event.pageX);
+});
+
+$('#team2').click(function(event){
+    event.stopPropagation();
+    var selectTeam = document.getElementById('selectTeam');
+    if (selectTeam.style.visibility == 'visible') {
+        selectTeam.style.visibility = 'hidden';
+    }
+    voteTimeStamp(getteam('purple'), event.pageX);
+});
+
+$('#playBar').mousemove(function(event){
+    var clip = document.getElementById("clippedDiv");
+    var clipTeam = document.getElementById('selectTeam');
+    var frame = document.getElementById('container');
+    var position = event.pageX - frame.offsetLeft;
+    clip.style.left = position + 'px';
+    clipTeam.style.left = position - 7.5 + 'px';
+})
+
+$('#playBar').mouseenter(function() {
+    var clip = document.getElementById("clippedDiv");
+    clip.style.display = 'block';
+}).mouseleave(function() {
+    var clip = document.getElementById("clippedDiv");
+    var sel = document.getElementById("selectTeam");
+    if (idIsHovered('clippedDiv')) {
+        clip.style.display = 'block';
+        sel.style.display = 'flex';
+    } else {
+        clip.style.display = 'none';
+        sel.style.display = 'none';
+    } 
+});
+
+var timer; delay = 1700;
+$('#clippedDiv').mouseleave(function() {
+    if (!idIsHovered('playBar')) {
+        var clip = document.getElementById("clippedDiv");
+        var sel = document.getElementById("selectTeam");
+        timer = setTimeout(function(){
+            clip.style.display = 'none';
+            sel.style.display = 'none';
+        }, delay);
+    }
+}).mouseenter(function() {
+    clearTimeout(timer);
+});
+    
+$('#flag').click(function(){
+    if (flagMode == 1) {
+        flagMode = 0;
+        this.style.color = 'rgb(190, 190, 190)';
+        $('.stamp').hide();
+        var votePanel = document.getElementById("votePanel");
+        votePanel.style.visibility = 'hidden';
+    }
+    else if (flagMode == 0) {
+        flagMode = 1;
+        this.style.color = 'white';
+        $('.stamp').show();
+        if (document.getElementsByClassName("activestamp").length > 0) {
+            var votePanel = document.getElementById("votePanel");
+            votePanel.style.visibility = 'visible';
+        }
+    }
+});
+
+$('#flag').hover(function(){
+    if (flagMode == 0) {
+        this.style.color = 'white';
+    }
+}, function(){
+    if (flagMode == 0) {
+        this.style.color = 'rgb(190, 190, 190)';
+    }
+});
+
+function idIsHovered(id){
+    return $("#" + id + ":hover").length > 0;
+}
+
+function teamColor(team) {
+    if (team == "AF") {
+        return 'rgba(5, 69, 177, 1)';
+    }
+    else if (team == "APK") {
+        return 'rgba(215, 70, 70, 1)';
+    }
+    else if (team == "DRX") {
+        return 'rgba(87, 140, 247, 1)';
+    }
+    else if (team == "DWG") {
+        return 'rgba(48, 208, 178, 1)';
+    }
+    else if (team == "GEN") {
+        return 'rgba(165, 135, 33, 1)';
+    }
+    else if (team == "GRF") {
+        return 'rgba(215, 24, 31, 1)';
+    }
+    else if (team == "HLE") {
+        return 'rgba(255, 107, 1, 1)';
+    }
+    else if (team == "KT") {
+        return 'rgba(34, 30, 31, 1)';
+    }
+    else if (team == "SB") {
+        return 'rgba(173, 28, 49, 1)';
+    }
+    else if (team == "T1") {
+        return 'rgba(226, 30, 47, 1)';
+    }
+    else {
+        return 'rgba(0, 0, 0, 1)';
+    }
 }
