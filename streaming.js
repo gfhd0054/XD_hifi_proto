@@ -87,6 +87,13 @@ $(document).ready(function () {
         sendBtn.onclick = function() {
             submitMsg();
         }
+
+        document.addEventListener("keyup", function (event) {
+      
+            if(event.key == "Enter") {
+              submitMsg();
+            }
+          }, true);
     }
 
     // Initialize Firebase

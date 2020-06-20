@@ -62,10 +62,6 @@ $(document).ready(function () {
             exit = "Leave";
         }
         roomtitle.innerHTML += '<br><span style = "float : right; font-size : large"><input type="button" value="'+exit+'" onclick="direct_to_home()"></span>';
-        
-        
-        
-        
     }
 
     function readFromDatabase() {
@@ -130,6 +126,13 @@ $(document).ready(function () {
         sendBtn.onclick = function() {
             submitMsg();
         }
+
+        document.addEventListener("keyup", function (event) {
+      
+            if(event.key == "Enter") {
+              submitMsg();
+            }
+          }, true);
     }
 
     // Initialize Firebase
