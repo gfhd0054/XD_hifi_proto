@@ -177,6 +177,12 @@ $('#invite').click(function(event){
     if (friend.style.visibility == 'visible') {
         friend.style.visibility = 'hidden';
     }
+    var cbs = document.getElementsByClassName('cbox');
+    for (var i = 0; i<cbs.length; i++) {
+        if (cbs[i].checked) {
+            cbs[i].disabled = true;
+        }
+    }
 });
 
 $('#cancel').click(function(event){
@@ -186,6 +192,12 @@ $('#cancel').click(function(event){
     var friend = document.getElementById('inviteFriends');
     if (friend.style.visibility == 'visible') {
         friend.style.visibility = 'hidden';
+    }
+    var cbs = document.getElementsByClassName('cbox');
+    for (var i = 0; i<cbs.length; i++) {
+        if (cbs[i].checked && !cbs[i].disabled) {
+            cbs[i].checked = '';
+        }
     }
 });
 
@@ -198,5 +210,4 @@ function getData(param) {
             return decodeURIComponent(params[i].split('=')[1]);
         }
     }
-
 }
