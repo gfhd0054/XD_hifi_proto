@@ -117,7 +117,15 @@ $(document).ready(function () {
                 let set = document.createElement("div");
                 set.content = (j+1);
                 set.className = 'horizontal set';
-                set.innerHTML = "<img class='thumbnail' src='" + imgSrc + "'width='192px' height='108px'><br><span style='font-family: Ubuntu; font-size: medium'>Set " + (j+1) + "</span>";
+                set.innerHTML = "\
+                    <div class='thumbnailDiv'>\
+                        <div class='videoHover'>\
+                            <i class='fas fa-play'></i>\
+                        </div>\
+                        <img class='thumbnail' src='" + imgSrc + "'width='192px' height='108px'>\
+                    </div>\
+                    <br>\
+                    <span style='font-family: Ubuntu; font-size: medium'>Set " + (j+1) + "</span>";
                 replay.appendChild(set);
             }
             replaysDiv.appendChild(replay);
@@ -125,7 +133,7 @@ $(document).ready(function () {
     }
 
     function setRooms() {
-        let friendsDiv = document.getElementById("private");
+        let friendsDiv = document.getElementById("privateRooms");
 
         for(let i = 0; i < friends.length; i++) {
             if(friends[i].secure == "open") {
@@ -136,9 +144,23 @@ $(document).ready(function () {
                 let chk = doesFileExist(profLink)
                 let text = '<span style="font-family: Ubuntu; font-size: medium">' + friends[i].title + '</span><br><span style="font-family: Ubuntu; font-size: small">by '+friends[i].name+'</span>';
                 if(chk) {
-                    friend.innerHTML = "<img class='thumbnail' src='" + profLink + "' width='192px' height='108px'><br>" + text;
+                    friend.innerHTML = "\
+                    <div class='thumbnailDiv'>\
+                        <div class='videoHover'>\
+                            <i class='fas fa-play'></i>\
+                        </div>\
+                        <img class='thumbnail' src='" + profLink + "' width='192px' height='108px'>\
+                    </div>\
+                    <br>" + text;
                 } else {
-                    friend.innerHTML = "<img class='thumbnail' src='./images/profile/profile_default.png' width='192px' height='108px'><br>" + text;
+                    friend.innerHTML = "\
+                    <div class='thumbnailDiv'>\
+                        <div class='videoHover'>\
+                            <i class='fas fa-play'></i>\
+                        </div>\
+                        <img class='thumbnail' src='./images/profile/profile_default.png' width='192px' height='108px'>\
+                    </div>\
+                    <br>" + text;
                 }
                 friendsDiv.appendChild(friend);
             }
@@ -367,12 +389,9 @@ $(document).ready(function () {
     });
 
 
-
-
     initSchedule();
     setStreamers();
     setRooms();
     setReplays();
-
 });
 
