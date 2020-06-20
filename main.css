@@ -3,6 +3,21 @@
     height: 50px;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto 0;
+}
+
+
+#background {
+    z-index: -30;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
 .block {
     display: flex;
     justify-content: center;
@@ -23,7 +38,7 @@
 
 .titleSegment {
     font-family: Barlow;
-    color: gray;
+    color: rgb(60,60,60);
 }
 
 .replay {
@@ -82,7 +97,7 @@
 }
 
 .streamerLine{
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     cursor: pointer;
 }
 
