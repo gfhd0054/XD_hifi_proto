@@ -2,6 +2,11 @@ body {
     margin: 0;
 }
 
+.header{
+    width: 100%;
+    height: 50px;
+}
+
 .totalContainer{
     display: flex;
     flex-direction: column;
@@ -13,7 +18,7 @@ body {
 .category {
     font-family: Barlow;
     font-size: 23px;
-    color: rgb(189, 189, 189);
+    color: gray;
 }
 
 .block{
@@ -114,9 +119,10 @@ body {
 
 .information{
     background-color : #D3DDDD;
-    position : absolute;
     left: 50px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-left: 30px;
     width : 700px;
@@ -124,17 +130,10 @@ body {
     border : 30px solid #D3DDDD;
 }
 
-.matching {
-    margin-top : 100px;
-    
-}
 .matchingday{
     font-size : xx-large;
     font-weight: bold;
-    position: absolute;
     font-family: Barlow;
-    top : 30px;
-    left : 43%;
     text-align: center;
 }
 
@@ -195,11 +194,21 @@ body {
 #invite {
     background-color: rgb(255, 249, 224);
     color: black;
+    cursor: pointer;
+}
+
+#invite:hover {
+    background-color: rgb(255, 243, 199);
 }
 
 #cancel {
     background-color: white;
     color: black;
+    cursor: pointer;
+}
+
+#cancel:hover {
+    background-color: rgb(240,240,240);
 }
 
 #inviteMsg {
@@ -210,4 +219,20 @@ body {
     font-family: Ubuntu;
     font-size: 10px;
     align-self:flex-end;
+}
+
+.recommendtitle {
+    font-size: large;
+    color: gray;
+}
+
+.recvidtitle{
+    font-family: Ubuntu;
+    font-size: large;
+    text-align : center
+}
+
+#leavebutton{
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
 }

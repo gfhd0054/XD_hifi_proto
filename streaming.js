@@ -1,3 +1,5 @@
+var invited = [];
+
 $(document).ready(function () {
     $(".header").load('./homepage.html');
     $("#video").load('./streamingvideo.html');
@@ -25,8 +27,6 @@ $(document).ready(function () {
             content: content,
         });
     }
-
-
 
 
     function readFromDatabase() {

@@ -61,7 +61,7 @@ $(document).ready(function () {
         } else {
             exit = "Leave";
         }
-        roomtitle.innerHTML += '<br><span style = "float : right; font-size : large"><input type="button" value="'+exit+'" onclick="direct_to_home()"></span>';
+        roomtitle.innerHTML += '<br><span style = "float : right; font-size : large"><input id="leavebutton" type="button" value="'+exit+'" onclick="direct_to_home()"></span>';
     }
 
     function readFromDatabase() {
