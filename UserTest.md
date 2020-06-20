@@ -1,4 +1,4 @@
-# [Team XD] DP4: Hi-fi prototype
+# [Team XD] DP5: Usability Testing
  
 ## Members
  
