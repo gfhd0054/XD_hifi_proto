@@ -40,8 +40,8 @@ Go and watch it. There are timestamps for you to enjoy more.
 
 ### Recording strategy
 We decided to utilize the screen/voice recording of online session tools. Make sure we had a consent for this recording.
-- Facilitator : Focus on the comfort of user and smooth test flow. Also don't forget the formality of test.
-- Observer : Record the screen. Carefully observe the user's screen and memo the noticeable points. If some technical defects are found, also memo them. Take notes about the interviews. In having some questions, ask them directly or deliver them to facilitator.
+- Facilitator (Sanguk Kim, Jaejun Lee, Junyoung Choi) : Focus on the comfort of user and smooth test flow. Also don't forget the formality of test.
+- Observer (Yourim Shin) : Record the screen. Carefully observe the user's screen and memo the noticeable points. If some technical defects are found, also memo them. Take notes about the interviews. In having some questions, ask them directly or deliver them to facilitator.
 
 ### :clipboard: Questionnaires, Interview questions
 1. User Information
