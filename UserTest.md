@@ -90,15 +90,9 @@ What was unique about this participant? Main takeaway from this participant's se
 4. Use some metaphor of LOL game client, to send invitation. (H)
 
 #### User control & freedom
-1. It would be nice to have a button that can be submitted immediately (S)
-2. Making new timestamp by user seems less intuitive. (C) Offering candidate of timestamp from the website seems better.
+1. **It would be nice to have a button that can be submitted immediately (S) (High)**
+2. Making new timestamp by user seems less intuitive. Offering candidate of timestamp from the website seems better. (C)
 3. Expect the timestamp go back to smaller shape after clicking it. (C) 
-
-#### Error Prevention
-1. Cannot deactivate already invited friends. (H)
-
-#### Recognition rather than recall
-1. Expected more specific information(title, hints to contents) when hover on a timestamp. (H)
 
 #### Aesthetic design, 
 1. Unnatural main page blocks (S)
@@ -117,8 +111,11 @@ What was unique about this participant? Main takeaway from this participant's se
 2. Expect in-game screenshot to be the thumbnails of private room. (S)
 3. The function of viewing past quizzes or voting results. (S)
 
-#### High-level reflections: 
+#### Other things
+1. **Error Prevention** : **Cannot deactivate already invited friends. (H) (High)**
+2. **Recognition rather than recall** : Expected more specific information(title, hints to contents) when hover on a timestamp. (H)
 
+### High-level reflections: 
 What did you overall learn from the user testing experience? 
 1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
 2. It is necessary to clarify the replay timestamp function.
