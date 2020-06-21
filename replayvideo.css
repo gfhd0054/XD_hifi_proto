@@ -213,6 +213,11 @@ body {
     width: 8px;
 }
 
+.custom {
+    border-left: 1px solid antiquewhite;
+    border-right: 1px solid antiquewhite;
+}
+
 #volume{
     font-size: 15px;
 }

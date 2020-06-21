@@ -255,6 +255,9 @@ function drawTimestamp() {
         else if (data['team'] == pteam) {
             tmstmp.style.top = 0;
         }
+        if (data['custom'] == 1) {
+            tmstmp.classList.add('custom');
+        }
 
         tmstmp.style.background = teamColor(data['team']);
         
@@ -289,24 +292,22 @@ function drawTimestamp() {
     $('#team2').css("background", teamColor(pteam));
 }
 
-function voteTimeStamp(team) {
+function voteTimeStamp(team, offset) {
     var clip = document.getElementById("clippedDiv");
-    var tmstmp = document.createElement('div');
-    tmstmp.classList.add('stamp');
-    tmstmp.classList.add('activestamp');
-    tmstmp.classList.add('gotsarajim');
-    tmstmp.style.left = clip.offsetLeft - 151 + 'px';
-    tmstmp.style.background = teamColor(team);
-    playBar.appendChild(tmstmp);
-    $(".gotsarajim").animate({
-        opacity: 0,
-    }, {
-        duration: 3000,
-        easing: 'linear',
-        complete: function(){
-            playBar.removeChild(tmstmp);
-        }
-    });
+    var pos = clip.offsetLeft - 151;
+    var part = pos / playBar.offsetWidth;
+    var time = video.duration * part;
+    var newtmp = {
+        "gid": getData('gid'),
+        "set": getData('set'),
+        "time": time,
+        "team": team,
+        "Likes": 0,
+        "isLiked": 0,
+        "custom": 1,
+    };
+    timeStampData.push(newtmp);
+    drawTimestamp();
 }
 
 $(window).click(function(){
