@@ -90,7 +90,7 @@ What was unique about this participant? Main takeaway from this participant's se
 4. Use some metaphor of LOL game client, to send invitation. (H)
 
 #### User control & freedom
-1. 퀴즈 정답을 누르면 바로 제출이 된다거나 제출이 되는 버튼이 있으면 좋을 것 같다. (S)
+1. It would be nice to have a button that can be submitted immediately (S)
 2. Making new timestamp by user seems less intuitive. (C) Offering candidate of timestamp from the website seems better.
 3. Expect the timestamp go back to smaller shape after clicking it. (C) 
 
@@ -107,15 +107,15 @@ What was unique about this participant? Main takeaway from this participant's se
 
 #### Visibility
 1. Cannot notice it is timestamp at first.(H)
-2. Visibility, Expect pop-up quiz to be located in top or bottom of screen to less bother watching game. (C)
-3. Visibility, clicking “like” seems little narrow (C)
-4. Visibility, 친구초대 기능이 눈에 띄지 않는 것 같다. Expect friend invitation feature to be more visible. (S)
-5. Visibility, 스케줄에 남은 경기는 날짜와 D-day 모두 표시되면 좋을 것 같고 지난 경기는 날짜가 적히면 좋을 것 같다. Looked for both date and D-day display for upcoming schedule, and both result and date showing for past games. (S)
+2. Expect pop-up quiz to be located in top or bottom of screen to less bother watching game. (C)
+3. clicking “like” seems little narrow (C)
+4. Expect friend invitation feature to be more visible. (S)
+5. Looked for both date and D-day display for upcoming schedule, and both result and date showing for past games. (S)
 
 #### Visibility of system status
-1. 사람들 투표현황을 볼 수 있으면 좋을 것 같다. Expect other users’ voting status. (S)
-2. Visibility of system status, 프라이빗 룸의 썸네일은 유저 프로필보다는 인게임 영상인게 더 좋을 것 같다. Expect in-game screenshot to be the thumbnails of private room. (S)
-3. Visibility of system status, 지난 퀴즈들 현황이나 투표 결과 볼 수 있는 기능. (S)
+1. Expect other users’ voting status. (S)
+2. Expect in-game screenshot to be the thumbnails of private room. (S)
+3. The function of viewing past quizzes or voting results. (S)
 
 #### High-level reflections: 
 
