@@ -12,7 +12,7 @@
  
 ## :page_with_curl: Written Protocol
 
-Test URL : https://gfhd0054.github.io/XD_hifi_proto/
+:link: Test URL : https://gfhd0054.github.io/XD_hifi_proto/
 
 #### Introduction and informed consent
 We are *Team XD* that develops the platform where you can enjoy the league games of League of Legends. Thank you for participating our user test. We would be glad if you proceed 3 tasks in our website and have a short interview afterwards. If you don't mind, we will record your voice and screen. What we record will be deleted right after we analyze the result. If you don't want to be recorded please let us know. During the test, please think aloud. “Think aloud” is speak what you think or feel immediately while doing some action. Even though you have any small thing curious or stuck, feel free to ask for it. Any comments would be helpful. Before diving into our page, here are some assumptions. It is 2020. 06. 09 and LOL match is ongoing. You already have a membership about our page. You are already logged in, and you have friends in there.
