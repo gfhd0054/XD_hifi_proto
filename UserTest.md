@@ -79,11 +79,11 @@ Thank you very much for participating in our project user test. We are building 
 
 ## :mag: Session observations
 #### Participants
-|User|Sex|Age|Playing LoL|Watching LoL|Facilitator/Observer|
-|:---:|:---:|:---:|:---:|:---:|
-|:bust_in_silhouette: S|Male|23|2 hours a week|half hour a day|Sanguk Kim/Yourim Shin|
-|:bust_in_silhouette: H|Male|24|7 hours a week|7 hours a week|Jaejun Lee/Yourim Shin|
-|:bust_in_silhouette: C|Male|22|15 hours a week|watch 70% of LCK matches live with twitch|Junyoung Choi/Yourim Shin|
+|User|Sex|Age|Playing LoL|Watching LoL|Facilitator, Observer|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|:bust_in_silhouette: S|Male|23|2 hours a week|half hour a day|Sanguk Kim, Yourim Shin|
+|:bust_in_silhouette: H|Male|24|7 hours a week|7 hours a week|Jaejun Lee, Yourim Shin|
+|:bust_in_silhouette: C|Male|22|15 hours a week|watch 70% of LCK matches live with twitch|Junyoung Choi, Yourim Shin|
 
 **Additional background**
 <br>User H : He doesn't like community and usually watch with his friends
