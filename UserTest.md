@@ -124,8 +124,9 @@ What would you do differently for better results and insights?
 
 
 ## Studio Reflections
-User1
-User2
+**Private room** : Making and inviting a room is intuitive, but looking and searching at a list of friends is not intuitive.
+**Quiz** : Unless it comes up at an important moment, it won't disturb watching.
+**Timestamp** : The color of the timestamp is noticeable, but the functions of the timestamp were not intuitive.
 
 ## Plan for iteration
 Amend UI more friendly to users. 
