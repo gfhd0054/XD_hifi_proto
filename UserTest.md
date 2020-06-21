@@ -38,24 +38,25 @@ Go to watch replay video of DRX vs DWG set 1 in 2020.06.07 There is timestamp fo
     - Please describe your LOL experience as detail as possible.
     - Do you like the community for LOL?
     - Whom do you consume LOL with?
-    - First Impression(After Tutorial)
+
+2. First Impression(After Tutorial)
     - Which functions did you notice?
     - How did you feel about main page?
-2. UI/UX
+3. UI/UX
     - Tell us how do you feel when you saw first screen.
     - What was difficult while you progress each task?
-3. Task1
+- Task1
     - How did you feel about this private room function?
     - (Special, outstanding behavior of user/ usability issue)
-4. Task2
+- Task2
     - How do you think about popup quiz?
     - Do you think popup quiz bothers you watching game?
     - (Special, outstanding behavior of user/ usability issue)
-5. Task3
+- Task3
     - Do you notice that timestamps have different color?
     - If you do, do you know what it means?
     - (Special, outstanding behavior of user/ usability issue)
-6. Overall response
+4. Overall response
     - If there is a website like this, would you like to use it?
     - Which part do you think the website should be improved? 
     - Any comments or suggestions?
