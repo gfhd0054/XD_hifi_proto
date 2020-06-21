@@ -12,10 +12,16 @@
  
 ## :page_with_curl: Written Protocol
 
+### Preparation and setting
+
+- For online test, use online session tool that supports screen sharing(Zoom, Google Hangout, ...), so that you can monitor the user's screen. Provide appropriate session URL to our user.
+- FYI, development resources and data is in the following git repository URL, https://github.com/gfhd0054/XD_hifi_proto.git.
+- Provide test URL to our user. Use Chrome browser. There is no additional data load to user's local.
+
 :link: Test URL : https://gfhd0054.github.io/XD_hifi_proto/
 
-#### Introduction and informed consent
-We are *Team XD* that develops the platform where you can enjoy the league games of League of Legends. Thank you for participating our user test. We would be glad if you proceed 3 tasks in our website and have a short interview afterwards. If you don't mind, we will record your voice and screen. What we record will be deleted right after we analyze the result. If you don't want to be recorded please let us know. During the test, please think aloud. “Think aloud” is speak what you think or feel immediately while doing some action. Even though you have any small thing curious or stuck, feel free to ask for it. Any comments would be helpful. Before diving into our page, here are some assumptions. It is 2020. 06. 09 and LOL match is ongoing. You already have a membership about our page. You are already logged in, and you have friends in there.
+### Introduction and informed consent
+We are *Team XD* that develops the platform where you can enjoy the league games of League of Legends. Thank you for participating our user test. We would be glad if you proceed 3 tasks in our website and have a short interview afterwards. If you don't mind, we will record your voice and screen. What we record will be deleted right after we analyze the result. If you don't want to be recorded please let us know. During the test, please think aloud. “Think aloud” is speaking what you think or feel immediately while doing some action. Even though you have any small thing curious or stuck, feel free to ask for it. Any comments would be helpful. Before diving into our page, here are some assumptions. It is 2020. 06. 09 and LOL match is ongoing. You already have a membership about our page, so sign up step is skipped. You are already logged in, and you have some online friends in there.
 
 ### Tutorials
 This is a tutorial session for test. Get a taste of the main page. We have many elements in here. Don’t forget you are already logged in.
@@ -26,10 +32,18 @@ This is a tutorial session for test. Get a taste of the main page. We have many 
 3. **Task3** : Watch the replay video [2020. 06. 07 DRX vs DWG set1].
  
 ### Instructions
-1. **Task1** : Make your own new “private room” to watch league matches with your friends. After making room, invite your friends to come in.
-2. **Task2** : Go to watch official streaming. While watching, enjoy pop-up quiz.
-3. **Task3** : There is list of the replay videos in the main page.
-Go to watch replay video of DRX vs DWG set 1 in 2020.06.07 There is timestamp for you to enjoy more.
+This prototype allows some level of users' freedom, but some features are not supported than shown in the screen. You may do what you want to do freely, but don't forget there is some only-visual elements. If stuck with some buggy situation or find a critical error, ask to facilitator anytime. If you stuck during the tasks, some detailed instructions for each tasks are here, so feel free to see it.
+1. **Task1** : You can host your own new private room for watching match by "Create room" button on "Private room" menu. Invite your friend by clicking the icon on the right-upper corner of chatting slot.
+2. **Task2** : Menu "Public Broadcast" direct you to official streaming. Calm and enjoy the streaming. Popup window would come out during the streaming, so participate to it.
+3. **Task3** : There is list of the replay videos in the main page. Find DRX vs DWG set 1, which was held in 2020.06.07.
+Go and watch it. There are timestamps for you to enjoy more.
+
+### Recording strategy
+We decided to utilize the screen/voice recording of online session tools. Make sure we had a consent for this recording.
+- Facilitator () : Focus on the comfort of user and smooth test flow. Also don't forget the formality of test.
+- Observer1 () : Carefully observe the user's screen and get the noticeable points. After tasks, ask them directly or deliver them to facilitator.
+- Observer2 & Tech person () : Carefully observe the user's behavior. Discover some defects of this system, in the scope of both technical or user-friendly. 
+- Recorder () : Record the whole screen, memo the interviews and usability issues during the test.
 
 ### :clipboard: Questionnaires, Interview questions
 1. User Information
