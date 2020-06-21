@@ -114,7 +114,7 @@ What was unique about this participant? Main takeaway from this participant's se
 1. **Error Prevention** : **Cannot deactivate already invited friends. (H) (High)**
 2. **Recognition rather than recall** : Expected more specific information(title, hints to contents) when hover on a timestamp. (H)
 
-### :heavy_minus_sign: :bulb: High-level reflections: 
+### :bulb: High-level reflections: 
 What did you overall learn from the user testing experience? 
 1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
 2. It is necessary to clarify the replay timestamp function.
