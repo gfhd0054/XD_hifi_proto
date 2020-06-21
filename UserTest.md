@@ -128,9 +128,45 @@ What was unique about this participant? Main takeaway from this participant's se
 
 ## Usability lessons
 
-#### List 10 usability problems organized by high-level theme with criticality. 
+Match the real world, 특정 하이라이트 경우는 두 팀 모두에게 해당되는 하이라이트인 상황도 생길 것 같다.
 
-ex) Visibility, take time to find create new room button (P1, P3)(High)
+Match the real world, Tried to send message with pressing “enter” (C)
+
+Match the real world, Expect league ranking on the main page. (A, C) (High)
+
+Match the real world, Use some metaphor of LOL game client, to send invitation. (H)
+
+User control & freedom, 퀴즈 정답을 누르면 바로 제출이 된다거나 제출이 되는 버튼이 있으면 좋을 것 같다. (A)
+
+User control & freedom,  Making new timestamp by user seems less intuitive. (C) Offering candidate of timestamp from the website seems better.
+
+Expect the timestamp go back to smaller shape after clicking it. (C) 
+
+Error Prevention, Cannot deactivate already invited friends. (H)
+
+Recognition rather than recall, Expected more specific information(title, hints to contents) when hover on a timestamp. (H)
+
+Visibility, Aesthetic design, 
+
+Unnatural main page blocks (A) / feel uncomfortable with position of private room. (C) / Expect friend list appears on the main page, and also the first entrance to private room. (H)
+
+Visibility, Cannot notice it is timestamp at first.(H)
+
+Visibility, Expect pop-up quiz to be located in top or bottom of screen to less bother watching game. (C)
+
+Visibility, clicking “like” seems little narrow (C)
+
+Visibility, 친구초대 기능이 눈에 띄지 않는 것 같다. Expect friend invitation feature to be more visible. (A)
+
+Visibility, 스케줄에 남은 경기는 날짜와 D-day 모두 표시되면 좋을 것 같고 지난 경기는 날짜가 적히면 좋을 것 같다. Looked for both date and D-day display for upcoming schedule, and both result and date showing for past games. (A)
+
+
+Visibility of system status, 사람들 투표현황을 볼 수 있으면 좋을 것 같다. Expect other users’ voting status. (A)
+
+Visibility of system status, 프라이빗 룸의 썸네일은 유저 프로필보다는 인게임 영상인게 더 좋을 것 같다. Expect in-game screenshot to be the thumbnails of private room. (A)
+
+Visibility of system status, 지난 퀴즈들 현황이나 투표 결과 볼 수 있는 기능. (A)
+
 
 #### High-level reflections: 
 
