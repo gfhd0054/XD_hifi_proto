@@ -82,40 +82,39 @@ What was unique about this participant? Main takeaway from this participant's se
 
 ## :memo: Usability lessons
 
-### List 10 usability problems organized by high-level theme with criticality. 
-#### Match the real world
+#### :heavy_minus_sign: Match the real world
 1. Certain highlights are likely to be the highlight of both teams. (S)
 2. Tried to send message with pressing “enter” (C)
 3. **Expect league ranking on the main page. (S, C) (High)**
 4. Use some metaphor of LOL game client, to send invitation. (H)
 
-#### User control & freedom
+#### :heavy_minus_sign: User control & freedom
 1. **It would be nice to have a button that can be submitted immediately (S) (High)**
 2. Making new timestamp by user seems less intuitive. Offering candidate of timestamp from the website seems better. (C)
 3. Expect the timestamp go back to smaller shape after clicking it. (C) 
 
-#### Aesthetic design, 
+#### :heavy_minus_sign: Aesthetic design, 
 1. Unnatural main page blocks (S)
 2. feel uncomfortable with position of private room. (C)
 3. Expect friend list appears on the main page, and also the first entrance to private room. (H)
 
-#### Visibility
+#### :heavy_minus_sign: Visibility
 1. Cannot notice it is timestamp at first.(H)
 2. Expect pop-up quiz to be located in top or bottom of screen to less bother watching game. (C)
 3. clicking “like” seems little narrow (C)
 4. Expect friend invitation feature to be more visible. (S)
 5. Looked for both date and D-day display for upcoming schedule, and both result and date showing for past games. (S)
 
-#### Visibility of system status
+#### :heavy_minus_sign: Visibility of system status
 1. Expect other users’ voting status. (S)
 2. Expect in-game screenshot to be the thumbnails of private room. (S)
 3. The function of viewing past quizzes or voting results. (S)
 
-#### Other things
+#### :heavy_minus_sign: Other things
 1. **Error Prevention** : **Cannot deactivate already invited friends. (H) (High)**
 2. **Recognition rather than recall** : Expected more specific information(title, hints to contents) when hover on a timestamp. (H)
 
-### :bulb: High-level reflections: 
+### :heavy_minus_sign: :bulb: High-level reflections: 
 What did you overall learn from the user testing experience? 
 1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
 2. It is necessary to clarify the replay timestamp function.
