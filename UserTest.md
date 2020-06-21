@@ -40,10 +40,8 @@ Go and watch it. There are timestamps for you to enjoy more.
 
 ### Recording strategy
 We decided to utilize the screen/voice recording of online session tools. Make sure we had a consent for this recording.
-- Facilitator () : Focus on the comfort of user and smooth test flow. Also don't forget the formality of test.
-- Observer1 () : Carefully observe the user's screen and get the noticeable points. After tasks, ask them directly or deliver them to facilitator.
-- Observer2 & Tech person () : Carefully observe the user's behavior. Discover some defects of this system, in the scope of both technical or user-friendly. 
-- Recorder () : Record the whole screen, memo the interviews and usability issues during the test.
+- Facilitator : Focus on the comfort of user and smooth test flow. Also don't forget the formality of test.
+- Observer : Record the screen. Carefully observe the user's screen and memo the noticeable points. If some technical defects are found, also memo them. Take notes about the interviews. In having some questions, ask them directly or deliver them to facilitator.
 
 ### :clipboard: Questionnaires, Interview questions
 1. User Information
@@ -81,11 +79,11 @@ Thank you very much for participating in our project user test. We are building 
 
 ## :mag: Session observations
 #### Participants
-|User|Sex|Age|Playing LoL|Watching LoL|
+|User|Sex|Age|Playing LoL|Watching LoL|Facilitator/Observer|
 |:---:|:---:|:---:|:---:|:---:|
-|:bust_in_silhouette: S|Male|23|2 hours a week|half hour a day|
-|:bust_in_silhouette: H|Male|24|7 hours a week|7 hours a week|
-|:bust_in_silhouette: C|Male|22|15 hours a week|watch 70% of LCK matches live with twitch|
+|:bust_in_silhouette: S|Male|23|2 hours a week|half hour a day|Sanguk Kim/Yourim Shin|
+|:bust_in_silhouette: H|Male|24|7 hours a week|7 hours a week|Jaejun Lee/Yourim Shin|
+|:bust_in_silhouette: C|Male|22|15 hours a week|watch 70% of LCK matches live with twitch|Junyoung Choi/Yourim Shin|
 
 **Additional background**
 <br>User H : He doesn't like community and usually watch with his friends
