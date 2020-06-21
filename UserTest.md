@@ -126,8 +126,11 @@ Visibility of system status, 지난 퀴즈들 현황이나 투표 결과 볼 수
 #### High-level reflections: 
 
 What did you overall learn from the user testing experience? 
+1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
+2. It is necessary to clarify the replay timestamp function.
 
 What would you do differently for better results and insights?
+
 
 ## Studio Reflections
 User1
