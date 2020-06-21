@@ -10,7 +10,7 @@
  
 - 20180693 Choi Junyoung
  
-## Written Protocol
+## :page_with_curl: Written Protocol
 
 Test URL : https://gfhd0054.github.io/XD_hifi_proto/
 
@@ -31,7 +31,7 @@ This is a tutorial session for test. Get a taste of the main page. We have many 
 3. **Task3** : There is list of the replay videos in the main page.
 Go to watch replay video of DRX vs DWG set 1 in 2020.06.07 There is timestamp for you to enjoy more.
 
-### Questionnaires, Interview questions
+### :clipboard: Questionnaires, Interview questions
 1. User Information
     - How often do you consume LOL?
     - How do you usually consume your LOL games? (Playing or Watching League Game, Watching at Youtube etc)
@@ -65,13 +65,13 @@ Go to watch replay video of DRX vs DWG set 1 in 2020.06.07 There is timestamp fo
 Thank you very much for participating in our project user test. We are building a new enjoyable platform for watching the League of Legends league game with others and your test would be huge contribution.
 
 
-## Session observations
+## :mag: Session observations
 #### Participants
 |User|Sex|Age|Playing LoL|Watching LoL|
 |:---:|:---:|:---:|:---:|:---:|
-|S|Male|23|2 hours a week|half hour a day|
-|H|Male|24|7 hours a week|7 hours a week|
-|C|Male|22|15 hours a week|watch 70% of LCK matches live with twitch|
+|:bust_in_silhouette: S|Male|23|2 hours a week|half hour a day|
+|:bust_in_silhouette: H|Male|24|7 hours a week|7 hours a week|
+|:bust_in_silhouette: C|Male|22|15 hours a week|watch 70% of LCK matches live with twitch|
 
 **Additional background**
 <br>User H : He doesn't like community and usually watch with his friends
@@ -80,7 +80,7 @@ Thank you very much for participating in our project user test. We are building 
 
 What was unique about this participant? Main takeaway from this participant's session?
 
-## Usability lessons
+## :memo: Usability lessons
 
 ### List 10 usability problems organized by high-level theme with criticality. 
 #### Match the real world
@@ -115,7 +115,7 @@ What was unique about this participant? Main takeaway from this participant's se
 1. **Error Prevention** : **Cannot deactivate already invited friends. (H) (High)**
 2. **Recognition rather than recall** : Expected more specific information(title, hints to contents) when hover on a timestamp. (H)
 
-### High-level reflections: 
+### :bulb: High-level reflections: 
 What did you overall learn from the user testing experience? 
 1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
 2. It is necessary to clarify the replay timestamp function.
@@ -123,10 +123,12 @@ What did you overall learn from the user testing experience?
 What would you do differently for better results and insights?
 
 
-## Studio Reflections
+## Studio Reflections :busts_in_silhouette:
 **Private room** : Making and inviting a room is intuitive, but looking and searching at a list of friends is not intuitive.
+
 **Quiz** : Unless it comes up at an important moment, it won't disturb watching.
+
 **Timestamp** : The color of the timestamp is noticeable, but the functions of the timestamp were not intuitive.
 
-## Plan for iteration
+## :paw_prints: Plan for iteration
 Amend UI more friendly to users. 
