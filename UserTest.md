@@ -10,12 +10,18 @@
  
 - 20180693 Choi Junyoung
  
-## Written Protocol
+## :page_with_curl: Written Protocol
 
-Test URL : https://gfhd0054.github.io/XD_hifi_proto/
+### Preparation and setting
 
-#### Introduction and informed consent
-We are *Team XD* that develops the platform where you can enjoy the league games of League of Legends. Thank you for participating our user test. We would be glad if you proceed 3 tasks in our website and have a short interview afterwards. If you don't mind, we will record your voice and screen. What we record will be deleted right after we analyze the result. If you don't want to be recorded please let us know. During the test, please think aloud. “Think aloud” is speak what you think or feel immediately while doing some action. Even though you have any small thing curious or stuck, feel free to ask for it. Any comments would be helpful. Before diving into our page, here are some assumptions. It is 2020. 06. 09 and LOL match is ongoing. You already have a membership about our page. You are already logged in, and you have friends in there.
+- For online test, use online session tool that supports screen sharing(Zoom, Google Hangout, ...), so that you can monitor the user's screen. Provide appropriate session URL to our user.
+- FYI, development resources and data is in the following git repository URL, https://github.com/gfhd0054/XD_hifi_proto.git.
+- Provide test URL to our user. Use Chrome browser. There is no additional data load to user's local.
+
+:link: Test URL : https://gfhd0054.github.io/XD_hifi_proto/
+
+### Introduction and informed consent
+We are *Team XD* that develops the platform where you can enjoy the league games of League of Legends. Thank you for participating our user test. We would be glad if you proceed 3 tasks in our website and have a short interview afterwards. If you don't mind, we will record your voice and screen. What we record will be deleted right after we analyze the result. If you don't want to be recorded please let us know. During the test, please think aloud. “Think aloud” is speaking what you think or feel immediately while doing some action. Even though you have any small thing curious or stuck, feel free to ask for it. Any comments would be helpful. Before diving into our page, here are some assumptions. It is 2020. 06. 09 and LOL match is ongoing. You already have a membership about our page, so sign up step is skipped. You are already logged in, and you have some online friends in there.
 
 ### Tutorials
 This is a tutorial session for test. Get a taste of the main page. We have many elements in here. Don’t forget you are already logged in.
@@ -26,36 +32,43 @@ This is a tutorial session for test. Get a taste of the main page. We have many 
 3. **Task3** : Watch the replay video [2020. 06. 07 DRX vs DWG set1].
  
 ### Instructions
-1. **Task1** : Make your own new “private room” to watch league matches with your friends. After making room, invite your friends to come in.
-2. **Task2** : Go to watch official streaming. While watching, enjoy pop-up quiz.
-3. **Task3** : There is list of the replay videos in the main page.
-Go to watch replay video of DRX vs DWG set 1 in 2020.06.07 There is timestamp for you to enjoy more.
+This prototype allows some level of users' freedom, but some features are not supported than shown in the screen. You may do what you want to do freely, but don't forget there is some only-visual elements. If stuck with some buggy situation or find a critical error, ask to facilitator anytime. If you stuck during the tasks, some detailed instructions for each tasks are here, so feel free to see it.
+1. **Task1** : You can host your own new private room for watching match by "Create room" button on "Private room" menu. Invite your friend by clicking the icon on the right-upper corner of chatting slot.
+2. **Task2** : Menu "Public Broadcast" direct you to official streaming. Calm and enjoy the streaming. Popup window would come out during the streaming, so participate to it.
+3. **Task3** : There is list of the replay videos in the main page. Find DRX vs DWG set 1, which was held in 2020.06.07.
+Go and watch it. There are timestamps for you to enjoy more.
 
-### Questionnaires, Interview questions
+### Recording strategy
+We decided to utilize the screen/voice recording of online session tools. Make sure we had a consent for this recording.
+- Facilitator (Sanguk Kim, Jaejun Lee, Junyoung Choi) : Focus on the comfort of user and smooth test flow. Also don't forget the formality of test.
+- Observer (Yourim Shin) : Record the screen. Carefully observe the user's screen and memo the noticeable points. If some technical defects are found, also memo them. Take notes about the interviews. In having some questions, ask them directly or deliver them to facilitator.
+
+### :clipboard: Questionnaires, Interview questions
 1. User Information
     - How often do you consume LOL?
     - How do you usually consume your LOL games? (Playing or Watching League Game, Watching at Youtube etc)
     - Please describe your LOL experience as detail as possible.
     - Do you like the community for LOL?
     - Whom do you consume LOL with?
-    - First Impression(After Tutorial)
+
+2. First Impression(After Tutorial)
     - Which functions did you notice?
     - How did you feel about main page?
-2. UI/UX
+3. UI/UX
     - Tell us how do you feel when you saw first screen.
     - What was difficult while you progress each task?
-3. Task1
+- Task1
     - How did you feel about this private room function?
     - (Special, outstanding behavior of user/ usability issue)
-4. Task2
+- Task2
     - How do you think about popup quiz?
     - Do you think popup quiz bothers you watching game?
     - (Special, outstanding behavior of user/ usability issue)
-5. Task3
+- Task3
     - Do you notice that timestamps have different color?
     - If you do, do you know what it means?
     - (Special, outstanding behavior of user/ usability issue)
-6. Overall response
+4. Overall response
     - If there is a website like this, would you like to use it?
     - Which part do you think the website should be improved? 
     - Any comments or suggestions?
@@ -64,13 +77,13 @@ Go to watch replay video of DRX vs DWG set 1 in 2020.06.07 There is timestamp fo
 Thank you very much for participating in our project user test. We are building a new enjoyable platform for watching the League of Legends league game with others and your test would be huge contribution.
 
 
-## Session observations
+## :mag: Session observations
 #### Participants
-|User|Sex|Age|Playing LoL|Watching LoL|
-|:---:|:---:|:---:|:---:|:---:|
-|S|Male|23|2 hours a week|half hour a day|
-|H|Male|24|7 hours a week|7 hours a week|
-|C|Male|22|15 hours a week|watch 70% of LCK matches live with twitch|
+|User|Sex|Age|Playing LoL|Watching LoL|Facilitator, Observer|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|:bust_in_silhouette: S|Male|23|2 hours a week|half hour a day|Sanguk Kim, Yourim Shin|
+|:bust_in_silhouette: H|Male|24|7 hours a week|7 hours a week|Jaejun Lee, Yourim Shin|
+|:bust_in_silhouette: C|Male|22|15 hours a week|watch 70% of LCK matches live with twitch|Junyoung Choi, Yourim Shin|
 
 **Additional background**
 <br>User H : He doesn't like community and usually watch with his friends
@@ -79,58 +92,54 @@ Thank you very much for participating in our project user test. We are building 
 
 What was unique about this participant? Main takeaway from this participant's session?
 
-## Usability lessons
+## :memo: Usability lessons
 
-#### List 10 usability problems organized by high-level theme with criticality. 
+#### :heavy_minus_sign: Match the real world
+1. Certain highlights are likely to be the highlight of both teams. (S)
+2. Tried to send message with pressing “enter” (C)
+3. **Expect league ranking on the main page. (S, C) (High)**
+4. Use some metaphor of LOL game client, to send invitation. (H)
 
-Match the real world, 특정 하이라이트 경우는 두 팀 모두에게 해당되는 하이라이트인 상황도 생길 것 같다.
+#### :heavy_minus_sign: User control & freedom
+1. **It would be nice to have a button that can be submitted immediately (S) (High)**
+2. Making new timestamp by user seems less intuitive. Offering candidate of timestamp from the website seems better. (C)
+3. Expect the timestamp go back to smaller shape after clicking it. (C) 
 
-Match the real world, Tried to send message with pressing “enter” (C)
+#### :heavy_minus_sign: Aesthetic design, 
+1. Unnatural main page blocks (S)
+2. feel uncomfortable with position of private room. (C)
+3. Expect friend list appears on the main page, and also the first entrance to private room. (H)
 
-Match the real world, Expect league ranking on the main page. (A, C) (High)
+#### :heavy_minus_sign: Visibility
+1. Cannot notice it is timestamp at first.(H)
+2. Expect pop-up quiz to be located in top or bottom of screen to less bother watching game. (C)
+3. clicking “like” seems little narrow (C)
+4. Expect friend invitation feature to be more visible. (S)
+5. Looked for both date and D-day display for upcoming schedule, and both result and date showing for past games. (S)
 
-Match the real world, Use some metaphor of LOL game client, to send invitation. (H)
+#### :heavy_minus_sign: Visibility of system status
+1. Expect other users’ voting status. (S)
+2. Expect in-game screenshot to be the thumbnails of private room. (S)
+3. The function of viewing past quizzes or voting results. (S)
 
-User control & freedom, 퀴즈 정답을 누르면 바로 제출이 된다거나 제출이 되는 버튼이 있으면 좋을 것 같다. (A)
+#### :heavy_minus_sign: Other things
+1. **Error Prevention** : **Cannot deactivate already invited friends. (H) (High)**
+2. **Recognition rather than recall** : Expected more specific information(title, hints to contents) when hover on a timestamp. (H)
 
-User control & freedom,  Making new timestamp by user seems less intuitive. (C) Offering candidate of timestamp from the website seems better.
-
-Expect the timestamp go back to smaller shape after clicking it. (C) 
-
-Error Prevention, Cannot deactivate already invited friends. (H)
-
-Recognition rather than recall, Expected more specific information(title, hints to contents) when hover on a timestamp. (H)
-
-Visibility, Aesthetic design, 
-
-Unnatural main page blocks (A) / feel uncomfortable with position of private room. (C) / Expect friend list appears on the main page, and also the first entrance to private room. (H)
-
-Visibility, Cannot notice it is timestamp at first.(H)
-
-Visibility, Expect pop-up quiz to be located in top or bottom of screen to less bother watching game. (C)
-
-Visibility, clicking “like” seems little narrow (C)
-
-Visibility, 친구초대 기능이 눈에 띄지 않는 것 같다. Expect friend invitation feature to be more visible. (A)
-
-Visibility, 스케줄에 남은 경기는 날짜와 D-day 모두 표시되면 좋을 것 같고 지난 경기는 날짜가 적히면 좋을 것 같다. Looked for both date and D-day display for upcoming schedule, and both result and date showing for past games. (A)
-
-
-Visibility of system status, 사람들 투표현황을 볼 수 있으면 좋을 것 같다. Expect other users’ voting status. (A)
-
-Visibility of system status, 프라이빗 룸의 썸네일은 유저 프로필보다는 인게임 영상인게 더 좋을 것 같다. Expect in-game screenshot to be the thumbnails of private room. (A)
-
-Visibility of system status, 지난 퀴즈들 현황이나 투표 결과 볼 수 있는 기능. (A)
-
-#### High-level reflections: 
-
+### :bulb: High-level reflections: 
 What did you overall learn from the user testing experience? 
+1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
+2. It is necessary to clarify the replay timestamp function.
 
 What would you do differently for better results and insights?
 
-## Studio Reflections
-User1
-User2
 
-## Plan for iteration
+## Studio Reflections :busts_in_silhouette:
+**Private room** : Making and inviting a room is intuitive, but looking and searching at a list of friends is not intuitive.
+
+**Quiz** : Unless it comes up at an important moment, it won't disturb watching.
+
+**Timestamp** : The color of the timestamp is noticeable, but the functions of the timestamp were not intuitive.
+
+## :paw_prints: Plan for iteration
 Amend UI more friendly to users. 
