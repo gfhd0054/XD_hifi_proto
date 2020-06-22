@@ -88,6 +88,15 @@ window.addEventListener('keydown', function(e){
         convertVolToIcon(curVol);
         video.volume = curVol;
     }
+    else if (keyCode == 79) {
+        curTime += 5;
+        if (curTime > video.duration) {
+            video.currentTime = 0;
+        }
+        else {
+            video.currentTime = curTime;
+        }
+    }
 });
 
 function convertVolToIcon(vol) {
