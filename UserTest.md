@@ -88,10 +88,9 @@ Thank you very much for participating in our project user test. We are building 
 ***All the participants were selected from the acquaintances of our team members.***
 
 **Additional background**
-<br>User H : He doesn't like community and usually watches league with his friends. He pointed out somewhat unprofessional features on the page while testing.
-<br>User C : When he missed live, watch highlight video on youtube. Usually watches alone, but sometimes with his friends, especially at important match like final. By C's responses to tasks, our team could improve minor blanks discovered.
-<br>User S : As he consume LoL half an hour/a day stedily, he noticed plenty of system status visibility problems.
-<br>
+<br> - User H : He doesn't like community and usually watches league with his friends. He pointed out somewhat unprofessional features on the page while testing.
+<br> - User C : When he missed live, watch highlight video on youtube. Usually watches alone, but sometimes with his friends, especially at important match like final. By C's responses to tasks, our team could improve minor blanks discovered.
+<br> - User S : As he consume LoL half an hour/a day stedily, he noticed plenty of system status visibility problems.
 
 
 ## :memo: Usability lessons
@@ -107,7 +106,7 @@ Thank you very much for participating in our project user test. We are building 
 2. Making new timestamp by user seems less intuitive. Offering candidate of timestamp from the website seems better. (C)
 3. Expect the timestamp go back to smaller shape after clicking it. (C) 
 
-#### :heavy_minus_sign: Aesthetic design, 
+#### :heavy_minus_sign: Aesthetic design
 1. Unnatural main page blocks (S)
 2. feel uncomfortable with position of private room. (C)
 3. Expect friend list appears on the main page, and also the first entrance to private room. (H)
@@ -133,7 +132,7 @@ What did you overall learn from the user testing experience?
 1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
 2. It is necessary to clarify the replay timestamp function.
 
-:chenk: What would you do differently for better results and insights?
+What would you do differently for better results and insights?
 
 
 ## Studio Reflections :busts_in_silhouette:
