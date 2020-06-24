@@ -133,7 +133,7 @@ What did you overall learn from the user testing experience?
 2. It is necessary to clarify the replay timestamp function.
 
 What would you do differently for better results and insights?
-
+Since we have limited time, we will add features that will give users great satisfaction with even a slight change. And these features can be developed with a total of three directions: Aesthetic design, Visibility, User control.
 
 ## Studio Reflections :busts_in_silhouette:
 **Private room** : Making and inviting a room is intuitive, but looking and searching at a list of friends is not intuitive.
@@ -144,8 +144,15 @@ What would you do differently for better results and insights?
 
 ## :paw_prints: Plan for iteration
 Amend UI more friendly to users. 
+Aesthetic design
 1. Update main page background image
-2. main page hovering event addition
-3. main page toolbar fix
-4. friend invitation update
-5. timestamps don't disappear
+2. Layout that doesn't change depending on the size of the webpage
+
+Visibility
+1. Friend invitation update
+2. Main page hovering event addition
+3. Main page toolbar fix
+
+User control
+1. Send message with enter
+2. Timestamps user create don't disappear
