@@ -159,7 +159,7 @@ User criticizing about unreasonable feature of friend invitation.
 5. After user testing, discuss about the designers' intention and how the users actually felt about it. Get the weak points of implementation.
 
 
-## Studio Reflections :busts_in_silhouette:
+## :busts_in_silhouette: Studio Reflections
 **Private room** : Making and inviting a room is intuitive, but looking and searching at a list of friends is not intuitive.
 
 **Quiz** : Unless it comes up at an important moment, it won't disturb watching.
