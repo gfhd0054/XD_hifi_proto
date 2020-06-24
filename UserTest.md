@@ -87,6 +87,15 @@ Thank you very much for participating in our project user test. We are building 
 
 ***All the participants were selected from the acquaintances of our team members.***
 
+***Sketches #1***
+User pointing out that there's no date information.
+![drawing](./images/Screenshot%202020-06-24%20at%2012.44.11%20PM.png)
+
+***Sketches #2***
+User changing width of chrome page and checking response of division(structure).
+![drawing](./images/Screenshot%202020-06-24%20at%2012.45.53%20PM.png)
+
+
 **Additional background**
 <br> - User H : He doesn't like community and usually watches league with his friends. He pointed out somewhat unprofessional features on the page while testing.
 <br> - User C : When he missed live, watch highlight video on youtube. Usually watches alone, but sometimes with his friends, especially at important match like final. By C's responses to tasks, our team could improve minor blanks discovered.
