@@ -144,7 +144,7 @@ User criticizing about unreasonable feature of friend invitation.
 ### :bulb: High-level reflections: 
 **What did you overall learn from the user testing experience?**
 1. A few number of participants may induce the gap between needs and solutions, since the thoughts of users in Needfinding step and User testing step can be different.
-2. It's good to have continuous user testing while developing, to reduce the gap between thoughts of users and developer before it gets too wide. We thought it would be really hard to edit implementation for almost completed prototype.
+2. It's safe to conduct frequent user testing while developing, to reduce the gap between thoughts of users and developer before it gets too wide. We thought it would be really hard to edit implementation for almost completed prototype.
 3. Users don't entirely focus on the tasks. They also consider their usual surfing experience and give us comments.
 4. Users expect to have a real experience, even though what we provide is 'prototype' of it (not released version of it).
 5. It's hard that users catch the intention of developer only by testing.
