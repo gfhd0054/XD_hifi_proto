@@ -89,21 +89,21 @@ Thank you very much for participating in our project user test. We are building 
 
 ***Photo #1 (User S)***
 User pointing out that there's no date information.
-![drawing](./images/Screenshot%202020-06-24%20at%2012.44.11%20PM.png)
+![drawing](https://github.com/gfhd0054/XD_hifi_proto/blob/master/images/Screenshot%202020-06-24%20at%2012.44.11%20PM.png)
 
 ***Photo #2 (User S)***
 User changing width of chrome page and checking response of division(structure).
-![drawing](./images/Screenshot%202020-06-24%20at%2012.45.53%20PM.png)
+![drawing](https://github.com/gfhd0054/XD_hifi_proto/blob/master/images/Screenshot%202020-06-24%20at%2012.45.53%20PM.png)
 
 ***Photo #3 (User H)***
 User criticizing about unreasonable feature of friend invitation.
-![drawing](./images/User_H_sketch.png)
+![drawing](https://github.com/gfhd0054/XD_hifi_proto/blob/master/images/User_H_sketch.png)
 
 ***Photo #4 (User C) (It is an image reproduced after the incident.)***
 
 User failed to send a chat by pressing enter key and eventually clicked button by mouse.
 
-![drawing](./images/User_C_sketch.png)
+![drawing](https://github.com/gfhd0054/XD_hifi_proto/blob/master/images/User_C_sketch.png)
 
 **Additional background / Session summary**
 <br> - User S : He is spending in one direction without interacting, not actively working within the community, but only reading people's opinions. And he also watch league game alone at dinner. As he consume LoL half an hour/a day stedily, he noticed plenty of system status visibility problems.
