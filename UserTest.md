@@ -108,7 +108,7 @@ User failed to send a chat by pressing enter key and eventually clicked button b
 **Additional background / Session summary**
 <br> - User S : He is spending in one direction without interacting, not actively working within the community, but only reading people's opinions. And he also watch league game alone at dinner. As he consume LoL half an hour/a day stedily, he noticed plenty of system status visibility problems.
 <br> - User H : He doesn't like community and usually watches league with his friends. He pointed out somewhat unprofessional features on the page while testing.
-<br> - User C : Unfortunately, he refused to record video, he answered very closely though. He is the heaviest user among 3 testers. When he missed live, watch highlight video on youtube. Usually watches alone, but sometimes with his friends, especially at important match like final. By C's responses to tasks, our team could improve minor blanks discovered.
+<br> - User C : Unfortunately, he refused to record video, he answered very closely though. He is the heaviest user among our 3 testers. When he missed live, watch highlight video on youtube. Usually watches alone, but sometimes with his friends, especially at important match like final. By C's responses to tasks, our team could improve minor blanks discovered.
 
 
 
