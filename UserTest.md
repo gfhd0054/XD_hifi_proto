@@ -142,12 +142,22 @@ User criticizing about unreasonable feature of friend invitation.
 2. **Recognition rather than recall** : Expected more specific information(title, hints to contents) when hover on a timestamp. (H)
 
 ### :bulb: High-level reflections: 
-What did you overall learn from the user testing experience? 
-1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
-2. It is necessary to clarify the replay timestamp function.
+**What did you overall learn from the user testing experience?**
+~~1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
+2. It is necessary to clarify the replay timestamp function.~~
+1. A few number of participants may induce the gap between needs and solutions, since the thoughts of users in Needfinding step and User testing step can be different.
+2. It's good to have continuous user testing while developing, to reduce the gap between thoughts of users and developer before it gets too wide. We thought it would be really hard to edit implementation for almost completed prototype.
+3. Users don't entirely focus on the tasks. They also consider their usual surfing experience and give us comments.
+4. Users expect to have a real experience, even though what we provide is 'prototype' of it (not released version of it).
+5. It's hard that users catch the intention of developer only by testing.
 
-What would you do differently for better results and insights?<br>
-Since we have limited time, we will add features that will give users great satisfaction with even a slight change. And these features can be developed with a total of three directions: Aesthetic design, Visibility, User control.
+**What would you do differently for better results and insights?**
+1. Include more users in the step of needfinding and user testing, in order to quantify and generalize their needs and corresponding solutions.
+2. Conduct more user testing in the middle of development stage. Also, ask some opinions from user or designer before implement something.
+3. For the elements non-relevant with tasks, consider them also importantly, and make them user-friendly.
+4. Provide detailed explanation about situation/environment setting before user testing, so that users get closer to real experiences.
+5. After user testing, discuss about the designers' intention and how the users actually felt about it. Get the weak points of implementation.
+
 
 ## Studio Reflections :busts_in_silhouette:
 **Private room** : Making and inviting a room is intuitive, but looking and searching at a list of friends is not intuitive.
@@ -157,16 +167,16 @@ Since we have limited time, we will add features that will give users great sati
 **Timestamp** : The color of the timestamp is noticeable, but the functions of the timestamp were not intuitive.
 
 ## :paw_prints: Plan for iteration
-Amend UI more friendly to users. 
-Aesthetic design
+Since we have limited time, we will add features that will give users great satisfaction with even a slight change. And these features can be developed with a total of three directions: Aesthetic design, Visibility, User control.
+**Aesthetic design**
 1. Update main page background image
 2. Layout that doesn't change depending on the size of the webpage
 
-Visibility
+**Visibility**
 1. Friend invitation update
 2. Main page hovering event addition
 3. Main page toolbar fix
 
-User control
+**User control**
 1. Send message with enter
 2. Timestamps user create don't disappear
