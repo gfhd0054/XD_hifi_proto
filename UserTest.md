@@ -141,7 +141,7 @@ What did you overall learn from the user testing experience?
 1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
 2. It is necessary to clarify the replay timestamp function.
 
-What would you do differently for better results and insights?
+What would you do differently for better results and insights?<br>
 Since we have limited time, we will add features that will give users great satisfaction with even a slight change. And these features can be developed with a total of three directions: Aesthetic design, Visibility, User control.
 
 ## Studio Reflections :busts_in_silhouette:
