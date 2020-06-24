@@ -143,8 +143,6 @@ User criticizing about unreasonable feature of friend invitation.
 
 ### :bulb: High-level reflections: 
 **What did you overall learn from the user testing experience?**
-~~1. The UI is somewhat intuitive, but some parts are not delicate. In particular, there were many shortcomings in terms of user autonomy such as "absence of Submit button at pop-quiz".
-2. It is necessary to clarify the replay timestamp function.~~
 1. A few number of participants may induce the gap between needs and solutions, since the thoughts of users in Needfinding step and User testing step can be different.
 2. It's good to have continuous user testing while developing, to reduce the gap between thoughts of users and developer before it gets too wide. We thought it would be really hard to edit implementation for almost completed prototype.
 3. Users don't entirely focus on the tasks. They also consider their usual surfing experience and give us comments.
@@ -168,6 +166,7 @@ User criticizing about unreasonable feature of friend invitation.
 
 ## :paw_prints: Plan for iteration
 Since we have limited time, we will add features that will give users great satisfaction with even a slight change. And these features can be developed with a total of three directions: Aesthetic design, Visibility, User control.
+
 **Aesthetic design**
 1. Update main page background image
 2. Layout that doesn't change depending on the size of the webpage
