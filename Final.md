@@ -24,21 +24,17 @@ We expect those 3 solution tasks can give novel, efficient, joyful ways for user
 
 ## Quality arguments
 
-comments from user : “I like the idea”, “I would like to use XD”
-neat features,
-visual design, 
-usability
-novel UI components 
-intuitive pop up guessing quiz
-hardcore implementation with video streaming implementation
+Our UI is invaluable in the sense of 'successful implantation of novel features'. In many redesigning processes, it is easy to success by simplifying things. However, it's dangerous to add more features since users can think it's useless or disturbing original experience. Actually we had many comments about it from lo-fi prototype, such as 'The popup is disturbing me a lot', or 'Timestamp can make the video player messy'. Therefore, we kept discussed about the appropriate design, and they were successful. Positive comments such as 'Now the popup is really fit', 'Timestamp hiding feature is satisfactory', or 'I like the ideas', has increased.
 
-Background of the website is illustration in League of Legends. It can make user feel familiar while using it. While testing, a lot of users like the idea of the timestamp in replay video. It may seem unintuitive at first, but almost every user found out its function and how to use easily. There are some hidden implementation inside the prototype. The prototype can make any schedule feature with csv file that contains schedule of matches. There is algorithm to build schedule by recognizing the team in the csv file and date. If csv file contains result of the past matches. It could also make list of the replay videos and link to the page. Plus, if friend sets their room as “secret”, you can’t see the thumbnail of the friend’s room in the main page. There is friend named “Taeyoung” who makes the room but user can’t check while using. The list of friends’ private room can be also made by csv file that contains room’s name, room’s owner’s name, id of owner, and security of the room. Implementing with video streaming was the hardest part of our implementation. Though the video was not live and had short length, no user felt uncomfortable about it while user testing and gave us sufficient feedback about prototype. Some users said that they like pop up guessing quiz function and it was very intuitive even there were some improvement points.
+What we thought important is the natural, intuitive interaction. For the popup quiz, we concerned about how to make the quiz with less text information and intuitive design. We decided to make the background color is shading linearly to substitute timer, and add a noticeable hovering event to quiz options. This makes the quiz highly intuitive and users can catch the purpose of it quickly.
 
-comments from user : “I like the idea”, “I would like to use XD” neat features, visual design, usability novel UI components intuitive pop up guessing quiz hardcore implementation with video streaming implementation
+In the DP3, there were comments that 'I don't get the meaning of color of each timestamps'. To improve this, we placed a team color on the title of replay video so users can get the meaning of color in unconscious. After this, users could get the meaning better. The arrangement of timestamps is inspired by the interface of in-game statistics. We expect this can be effective metaphor for League of Legend player and impose 'This team did well at this time'.
 
-Our UI is invaluable in the sense of 'successful implantation of novel feature'. In many redesigning processes,
+For private room feature, to help understanding the purpose of this feature, we provide the small explanation of options while creating it.
 
-Our UI is invaluable in the sense of 'successful implantation of novel feature'. In many redesigning processes, 
+While this kind of 'unseen' interactions are novelty of our implementation, we've also made our site that we can easily manage the league data by local files. The list of match schedule, score, list of replay videos, thumbnails, list of friends and room's owner's name, id of owner and security of each rooms, all of them are fetched from each csv file. This means it is possible that we can really adjust the ongoing league match data into our site. It increases the robustness of our site, because the error in data can be easily managed by csv file rather than traveling the html elements.
+
+Another potential of our features is that, it can be adjustable to other sports leagues also. Baseball, basketball, Premiere leagues also support online streaming and replay videos. Also there are many fans, users! By the way, our solutions are based on the users from League of Legend match watcher. So additional needfinding step would be needed to confirm our solutions are also adjustable to other sports league. However, we think our three solutions 'Private space for streaming', 'Enjoyful quiz while preparing match', and 'timestamps directly on replay video player' are possible to be generalized.
 
 
 ## Iteration
