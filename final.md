@@ -32,10 +32,17 @@ hardcore implementation with video streaming implementation
 
 ## Iteration
 
-Throughout the user testing, we have learned that users focus on the natural experience rather than new solutions. The nuance of comments was, “I want common, consistent interactions. I also hope this system can handle more unexpected user behavior. By the way, your ideas are good.”. Therefore, we used our periods for improving aesthetic, visibility, and user control.
-For aesthetic aspects, there were some disturbing elements that don’t fit to the layout or fly around by different window size. Therefore, the entire ‘div’ element hierarchy is reestablished and arranged in unified structure. To give more realistic experience, background image is inserted.
-To enhance visibility,
-user control 
+Throughout the user testing, we have learned that users focus on the natural experience rather than new solutions. The nuance of comments was, “I want common, consistent interactions. I also hope this system can handle more unexpected user behavior. By the way, your ideas are good.”. Therefore, we decided to use our left periods for improving aesthetic, visibility, and user control.
+
+For aesthetic aspects, there were some disturbing elements that don’t fit to the layout or fly around by different window size. Therefore, the entire ‘div’ element hierarchy is reestablished and arranged in unified structure, so that we can easily access and develop the elements in the further steps also. To give more realistic experience, background image is processed and inserted.
+
+To enhance visibility, friend invitation feature is upgraded so that user can see the friend list and invitation message. Add series of hovering events for the link to videos, to improve consistency and interactives.
+
+For making various user interaction and controls, our chatting system is improved. Now users' own chat and others' chat is separated. Enter key can send the message. We updated feature for creating timestamp to replay video player, so that user can create their own highlights. However, there are several tasks left such as limiting reckless timestamp creation or reply tabs. It was hard to think about best design to implement, so we decided to think more about it.
+
+For the overall iteration process, we also planned to handle some scroll events, such as hiding/showing main header according to scroll event or adjusting size of elements according to scroll position. However, to support them, we also had to study from the bottom. We've felt there are still lots of things we can do for our sites, and it is still hungry for improvement.
+
+Also, from the iteration period, we could completely learn about cycle of user-centered design process. We've felt that, it is important to open ears to users' opinions, and take the iteration as a pleasure. Without it, not even a golden idea can be a sensational product.
 
 ## Individual reflection
 
@@ -69,6 +76,5 @@ During the whole process, I’ve learned the users are really center for the pro
 
 Also, I’ve felt the any usual interface we meet is not just usual things. They need to be constructed from highly concrete plan and so much considerations. Also, it was charming to get direct feedback of implementation by interface. I want to be more skillful in web implementation and keep interact with user and computer.
  
-URL of Demo Video
+### URL of Demo Video
 https://youtu.be/Kp_wNAolaYw
-
