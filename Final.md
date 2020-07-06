@@ -12,6 +12,8 @@
 
 ## Screenshots
 
+We expect those 3 solution tasks can give novel, efficient, joyful ways for users to enjoy the ‘watching’ experience.
+
 ###  Task 1 ![Task1PNG](https://raw.githubusercontent.com/gfhd0054/XD_hifi_proto/master/images/Task%201.png) 
    
 ###  Task 2
