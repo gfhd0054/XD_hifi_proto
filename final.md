@@ -22,11 +22,6 @@
 
 ## Quality arguments
 
-Background of the website is illustration in League of Legends. It can make user feel familiar while using it. While testing, a lot of users like the idea of the timestamp in replay video. It may seem unintuitive at first, but almost every user found out its function and how to use easily. 
-There are some hidden implementation inside the prototype. The prototype can make any schedule feature with csv file that contains schedule of matches. There is algorithm to build schedule by recognizing the team in the csv file and date. If csv file contains result of the past matches. It could also make list of the replay videos and link to the page. Plus, if friend sets their room as “secret”, you can’t see the thumbnail of the friend’s room in the main page. There is friend named “Taeyoung” who makes the room but user can’t check while using. The list of friends’ private room can be also made by csv file that contains room’s name, room’s owner’s name, id of owner, and security of the room. 
-Implementing with video streaming was the hardest part of our implementation. Though the video was not live and had short length, no user felt uncomfortable about it while user testing and gave us sufficient feedback about prototype. Some users said that they like pop up guessing quiz function and it was very intuitive even there were some improvement points. 
-
-
 comments from user : “I like the idea”, “I would like to use XD”
 neat features,
 visual design, 
@@ -34,6 +29,9 @@ usability
 novel UI components 
 intuitive pop up guessing quiz
 hardcore implementation with video streaming implementation
+
+Our UI is invaluable in the sense of 'successful implantation of novel feature'. In many redesigning processes, 
+
 
 ## Iteration
 
